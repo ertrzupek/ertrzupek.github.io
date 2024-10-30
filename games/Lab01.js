@@ -166,11 +166,11 @@ function getUniqueRunDependency(id) {
 }
 function addRunDependency(id) {
   runDependencies++;
-  //Module["monitorRunDependencies"]?.(runDependencies);
+  Module["monitorRunDependencies"]?.(runDependencies);
 }
 function removeRunDependency(id) {
   runDependencies--;
-  //Module["monitorRunDependencies"]?.(runDependencies);
+  Module["monitorRunDependencies"]?.(runDependencies);
   if (runDependencies == 0) {
     if (runDependencyWatcher !== null) {
       clearInterval(runDependencyWatcher);
