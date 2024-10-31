@@ -2,10 +2,9 @@
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: video games I've made for Annenberg Media @ USC as well as class projects
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 1
 horizontal: false
 ---
 

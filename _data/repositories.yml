@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ertrzupek/hades-ii-materials
+  - ertrzupek/hades-weapon-tracker
+  - ertrzupek/hades-counter
+  - ertrzupek/hades-currency-calculator
+  - ertrzupek/ahis-373
+  - ertrzupek/valentines-2024
