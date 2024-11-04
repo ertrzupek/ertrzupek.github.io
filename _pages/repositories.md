@@ -4,7 +4,7 @@ permalink: /repositories/
 title: repositories
 description: silly lil passion projects (react sites) that I've created <3
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 {% if site.data.repositories.github_users %}
