@@ -2,9 +2,10 @@
 layout: page
 title: projects
 permalink: /projects/
-description: video games I've made for Annenberg Media @ USC as well as class projects
+description: a collection of class projects & games designed for Annenberg
 nav: true
 nav_order: 1
+display_categories: [annenberg, c++ games (itp 380), physical games (ctin 488)]
 horizontal: false
 ---
 
