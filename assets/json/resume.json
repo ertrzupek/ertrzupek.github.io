@@ -20,9 +20,11 @@
       "location": "Farmington, CT",
       "url": "https://www.windingtrails.org/",
       "startDate": "06-2023",
-      "highlights": ["Create and lead multiple daily activities for the unit's 150 campers (ages 7 through 9)", 
-      "Mentor new staff member and present actionable feedback through mid-summer evaluation", 
-      "Maintain relationships between camper parent/guardians through bi-weekly check-in phone calls"]
+      "highlights": [
+        "Create and lead multiple daily activities for the unit's 150 campers (ages 7 through 9)",
+        "Mentor new staff member and present actionable feedback through mid-summer evaluation",
+        "Maintain relationships between camper parent/guardians through bi-weekly check-in phone calls"
+      ]
     },
     {
       "name": "Winding Trails Summer Day Camp",
@@ -31,9 +33,11 @@
       "url": "https://www.windingtrails.org/",
       "startDate": "06-2021",
       "endDate": "06-2023",
-      "highlights": ["Adapted to different groups every day, filling in for permanent staff in a variety of roles",
-      "Interacted with over 300 different campers (ages 5 through 10) each summer",
-      "Planned and led group bonding activities during free time and rainy days"]
+      "highlights": [
+        "Adapted to different groups every day, filling in for permanent staff in a variety of roles",
+        "Interacted with over 300 different campers (ages 5 through 10) each summer",
+        "Planned and led group bonding activities during free time and rainy days"
+      ]
     }
   ],
   "involvement": [
@@ -43,9 +47,11 @@
       "position": "Game Designer",
       "url": "https://www.uscannenbergmedia.com/",
       "startDate": "09-2024",
-      "highlights": ["Produce games for Annenberg's media website with over 15,000 users",
-    "Improve game experiences through community feedback and weekly user playtesting",
-    "Train other team members in game development fundamentals and code quality principles"]
+      "highlights": [
+        "Produce games for Annenberg's media website with over 15,000 users",
+        "Improve game experiences through community feedback and weekly user playtesting",
+        "Train other team members in game development fundamentals and code quality principles"
+      ]
     },
     {
       "organization": "USC Esports",
@@ -53,8 +59,7 @@
       "position": "Photographer & Programmer",
       "url": "https://www.usctrojanesports.com/",
       "startDate": "09-2024",
-      "highlights": ["Coordinate photo staff for events",
-    "Update and maintain the organization's Squarespace website"]
+      "highlights": ["Coordinate photo staff for events", "Update and maintain the organization's Squarespace website"]
     },
     {
       "organization": "Trojans Who Read",
@@ -62,9 +67,11 @@
       "position": "Secretary",
       "url": "",
       "startDate": "01-2024",
-      "highlights": ["Plan and lead monthly book discussion meetings for the club's 500 members",
-    "Communicate with members about book polls and social events through weekly email newsletter",
-    "Organize E-Board meetings and take detailed minutes of important information"]
+      "highlights": [
+        "Plan and lead monthly book discussion meetings for the club's 500 members",
+        "Communicate with members about book polls and social events through weekly email newsletter",
+        "Organize E-Board meetings and take detailed minutes of important information"
+      ]
     }
   ],
   "education": [
@@ -91,22 +98,12 @@
     {
       "name": "Computer Science",
       "icon": "fa-solid fa-terminal",
-      "keywords": [
-        "Software Design & Iteration",
-        "Code Quality Principles",
-        "Debugging",
-        "Github Management"
-      ]
+      "keywords": ["Software Design & Iteration", "Code Quality Principles", "Debugging", "Github Management"]
     },
     {
       "name": "Game Design",
       "icon": "fa-solid fa-gamepad",
-      "keywords": [
-        "Communication & Problem Solving",
-        "Leadership and Teamwork",
-        "Iterative Design",
-        "Quality Assurance Testing"
-      ]
+      "keywords": ["Communication & Problem Solving", "Leadership and Teamwork", "Iterative Design", "Quality Assurance Testing"]
     }
   ],
   "languages": [
@@ -130,41 +127,25 @@
     {
       "name": "Work",
       "icon": "fa-solid fa-star",
-      "keywords": [
-        "Software Engineering",
-        "Gameplay Programming",
-        "Audio Design",
-        "Quality Assurance"
-      ]
+      "keywords": ["Software Engineering", "Gameplay Programming", "Audio Design", "Quality Assurance"]
     },
     {
       "name": "Games",
       "icon": "fa-solid fa-star",
-      "keywords": [
-        "Hades",
-        "Balatro",
-        "Stardew Valley"
-      ]
+      "keywords": ["Hades", "Balatro", "Stardew Valley"]
     },
     {
       "name": "Other",
       "icon": "fa-solid fa-star",
-      "keywords": [
-        "Squash",
-        "Photography",
-        "Reading"
-      ]
+      "keywords": ["Squash", "Photography", "Reading"]
     }
   ],
-  "references": [
-  ],
+  "references": [],
   "projects": [
     {
       "name": "USC Crossy Road",
       "summary": "First professional published game.",
-      "highlights": ["First time working with a game engine", 
-      "Learned the workflow of Godot", 
-      "Cultivated skills in team management and leadership"],
+      "highlights": ["First time working with a game engine", "Learned the workflow of Godot", "Cultivated skills in team management and leadership"],
       "startDate": "10-2024",
       "endDate": "11-2024",
       "url": "/projects/"
