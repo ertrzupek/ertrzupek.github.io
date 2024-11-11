@@ -7,104 +7,152 @@
     "summary": "CS and game design student @ USC Viterbi, looking to make media that brings people together.",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Winding Trails Summer Day Camp",
+      "position": "Unit Director",
+      "location": "Farmington, CT",
+      "url": "https://www.windingtrails.org/",
+      "startDate": "06-2023",
+      "highlights": ["Create and lead multiple daily activities for the unit's 150 campers (ages 7 through 9)", 
+      "Mentor new staff member and present actionable feedback through mid-summer evaluation", 
+      "Maintain relationships between camper parent/guardians through bi-weekly check-in phone calls"]
+    },
+    {
+      "name": "Winding Trails Summer Day Camp",
+      "position": "Substitute Counselor",
+      "location": "Farmington, CT",
+      "url": "https://www.windingtrails.org/",
+      "startDate": "06-2021",
+      "endDate": "06-2023",
+      "highlights": ["Adapted to different groups every day, filling in for permanent staff in a variety of roles",
+      "Interacted with over 300 different campers (ages 5 through 10) each summer",
+      "Planned and led group bonding activities during free time and rainy days"]
     }
   ],
-  "volunteer": [
+  "involvement": [
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "organization": "Annenberg Media",
+      "location": "Los Angeles, CA",
+      "position": "Game Designer",
+      "url": "https://www.uscannenbergmedia.com/",
+      "startDate": "09-2024",
+      "highlights": ["Produce games for Annenberg's media website with over 15,000 users",
+    "Improve game experiences through community feedback and weekly user playtesting",
+    "Train other team members in game development fundamentals and code quality principles"]
+    },
+    {
+      "organization": "USC Esports",
+      "location": "Los Angeles, CA",
+      "position": "Photographer & Programmer",
+      "url": "https://www.usctrojanesports.com/",
+      "startDate": "09-2024",
+      "highlights": ["Coordinate photo staff for events",
+    "Update and maintain the organization's Squarespace website"]
+    },
+    {
+      "organization": "Trojans Who Read",
+      "location": "Los Angeles, CA",
+      "position": "Secretary",
+      "url": "",
+      "startDate": "01-2024",
+      "highlights": ["Plan and lead monthly book discussion meetings for the club's 500 members",
+    "Communicate with members about book polls and social events through weekly email newsletter",
+    "Organize E-Board meetings and take detailed minutes of important information"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
-      "courses": ["Theory of Relativity"]
+      "institution": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "url": "https://www.usc.edu/",
+      "area": "Computer Science Games",
+      "studyType": "Bachelor of Science",
+      "startDate": "08-2023",
+      "endDate": "05-2027"
     }
   ],
   "awards": [
     {
       "title": "Trustee Scholarship",
-      "date": "08-01-2023",
+      "date": "08-2023",
       "awarder": "The University of Southern California",
       "url": "https://admission.usc.edu/cost-and-financial-aid/scholarships/",
-      "summary": "Awarded to the top 100 students of the incoming class. Covers full tuition for all 4 years."
+      "summary": "USC faculty and staff select the recipients of this scholarship from an extremely competitive group of freshman applicants (100 out of 80,000). The award covers full tuition."
     }
-  ],
-  "certificates": [
-  ],
-  "publications": [
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Computer Science",
+      "icon": "fa-solid fa-terminal",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Software Design & Iteration",
+        "Code Quality Principles",
+        "Debugging",
+        "Github Management"
+      ]
+    },
+    {
+      "name": "Game Design",
+      "icon": "fa-solid fa-gamepad",
+      "keywords": [
+        "Communication & Problem Solving",
+        "Leadership and Teamwork",
+        "Iterative Design",
+        "Quality Assurance Testing"
       ]
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "native speaker",
+      "fluency": "Native Speaker",
       "icon": "fa-solid fa-star"
     },
     {
       "language": "Spanish",
-      "fluency": "working proficiency",
+      "fluency": "Working Proficiency",
       "icon": "fa-solid fa-star"
     },
     {
       "language": "Japanese",
-      "fluency": "beginner",
+      "fluency": "Beginner (JLPT N5)",
       "icon": "fa-solid fa-star"
     }
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Work",
+      "icon": "fa-solid fa-star",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Software Engineering",
+        "Gameplay Programming",
+        "Audio Design",
+        "Quality Assurance"
+      ]
+    },
+    {
+      "name": "Games",
+      "icon": "fa-solid fa-star",
+      "keywords": [
+        "Hades",
+        "Balatro",
+        "Stardew Valley"
+      ]
+    },
+    {
+      "name": "Other",
+      "icon": "fa-solid fa-star",
+      "keywords": [
+        "Squash",
+        "Photography",
+        "Reading"
       ]
     }
   ],
@@ -112,12 +160,14 @@
   ],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
+      "name": "USC Crossy Road",
+      "summary": "First professional published game.",
+      "highlights": ["First time working with a game engine", 
+      "Learned the workflow of Godot", 
+      "Cultivated skills in team management and leadership"],
+      "startDate": "10-2024",
+      "endDate": "11-2024",
+      "url": "/projects/"
     }
   ]
 }
