@@ -8,6 +8,7 @@ category: projects (art 150)
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/cooking-install.jpg" title="prj1-install"%}
+
 <div class="caption">install photo</div>
 
 <div class="row">
