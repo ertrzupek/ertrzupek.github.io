@@ -2,10 +2,10 @@
 layout: page
 title: photography
 permalink: /photography/
-description: my collection of both personal photos and class projects
+description: my collection of personal photos and class projects
 nav: true
 nav_order: 2
-display_categories: [projects (art 150), funsies]
+display_categories: [projects (art 150), just for funsies]
 horizontal: false
 ---
 
@@ -37,16 +37,82 @@ horizontal: false
   {% endfor %}
   <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" title="profile pic" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">caption</div>
+        {% include figure.liquid loading="eager" path="assets/img/strobe-practice.jpg" title="strobe-practice" %}
+        <div class="caption">strobe practice</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">caption</div>
+        {% include figure.liquid loading="eager" path="assets/img/moon-1.jpg" title="moon 1" %}
+        <div class="caption">moon and wires</div>
+        {% include figure.liquid loading="eager" path="assets/img/emergency.jpg" title="emergency" %}
+        <div class="caption">emergency</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lighting.jpg" title="lighting" %}
+        <div class="caption">golden hour</div>
+        {% include figure.liquid loading="eager" path="assets/img/moon-2.jpg" title="moon 2" %}
+        <div class="caption">the moon</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/prof_pic.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-        <div class="caption">caption</div>
+        {% include figure.liquid loading="eager" path="assets/img/rainbow.jpg" title="rainbow" %}
+        <div class="caption">perfectly placed rainbow</div>
     </div>
-</div>
+  </div>
+  <div class="row">
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/usc-1.jpg" title="usc globe" %}
+        <div class="caption">usc globe</div>
+    </div>
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/hollywood.jpg" title="hollywood" %}
+        <div class="caption">the art of living & the hollywood sign</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/track-1.jpg" title="track 1" %}
+        <div class="caption">sunoco in rain</div>
+        {% include figure.liquid loading="eager" path="assets/img/track-2.jpg" title="track 2" %}
+        <div class="caption">close race</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/track-3.jpg" title="track 3" %}
+        <div class="caption">at the track</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dance-1.jpg" title="dance-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dance-2.jpg" title="dance-2" %}
+        <div class="caption">Vienna (for AD)</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/dance-3.jpg" title="dance-3" %}
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/coast.jpg" title="coast" %}
+        <div class="caption">the coast</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/lombard.jpg" title="lombard" %}
+        <div class="caption">lombard</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bwla-1.jpg" title="bwla-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bwla-2.jpg" title="bwla-2" %}
+        <div class="caption">LA on film</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/bwla-3.jpg" title="bwla-3" %}
+    </div>
+  </div>
 </div>
