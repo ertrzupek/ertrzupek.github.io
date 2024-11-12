@@ -17,6 +17,6 @@ social: false # includes social icons at the bottom of the page
 
 Welcome! I'm a game designer and photographer with home bases in Los Angeles and Hartford. I've been producing small game projects for a while now, starting with Minecraft plugins and mods in Java about 5 years ago.
 
-I'm currently attending USC's Viterbi School of Engineering, studying Computer Science with an emphasis on video game design. I'm also minoring in photography with the goal of seeing the world from a more artistic lens.
+I'm currently attending USC's Viterbi School of Engineering, studying computer science with an emphasis on video game design. I'm also minoring in photography with the goal of seeing the world from a more artistic lens.
 
 Some of my favorite games include Hades, Balatro, Minecraft, and Stardew Valley.

@@ -196,7 +196,7 @@ var dataURIPrefix = "data:application/octet-stream;base64,";
 var isDataURI = (filename) => filename.startsWith(dataURIPrefix);
 var isFileURI = (filename) => filename.startsWith("file://");
 function findWasmBinary() {
-  var f = "Pong.wasm";
+  var f = "pong.wasm";
   if (!isDataURI(f)) {
     return locateFile(f);
   }

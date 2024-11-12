@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Portal
-description: here
+description: forces, 3D collision, quaternions, JSON level loading
 img:
 importance: 9
 category: c++ games (itp 380)
 ---
 
-here
+<a href="../../games/portal.html" target="_blank">play fullscreen here</a>
+
+click the embed to play!
+<embed type="text/html" src="../../games/portal.html"  width="1200" height="800">
