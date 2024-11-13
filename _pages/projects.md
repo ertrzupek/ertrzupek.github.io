@@ -5,7 +5,7 @@ permalink: /projects/
 description: a collection of class projects & games designed for Annenberg
 nav: true
 nav_order: 1
-display_categories: [annenberg, c++ games (itp 380), physical games (ctin 488)]
+display_categories: [published, c++ games (itp 380), physical games (ctin 488)]
 horizontal: false
 ---
 
