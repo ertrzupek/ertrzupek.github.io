@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Crossy Road
-description: programming/design lead
-img:
+description: <u><b>programming/design lead</b></u><br/>first published game
+img: assets/img/cr/cr-heading.png
 importance: 1
-category: published
+category: published work
 ---
 
 here
