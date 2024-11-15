@@ -18,8 +18,9 @@ when this game is released, you will be able to find it <a href="https://www.usc
 2. designed and implemented a <b>random terrain generator</b> that ensures every playthrough is different
 3. learned the basics of reloading scenes, saving data, and using <b>autoloads</b>
 4. created a <b>basic GUI</b> for game start, game over, and scoring
-5. maintained <b>constant communication</b> between other member and Annenberg Media
-6. cleanly managed <b>git collaboration</b> between members
+5. ran small internal and external <b>playtests</b> to confirm completion of project milestones
+6. maintained <b>constant communication</b> between other member and Annenberg Media
+7. cleanly managed <b>git collaboration</b> between members
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -32,4 +33,3 @@ when this game is released, you will be able to find it <a href="https://www.usc
         {% include figure.liquid loading="eager" path="assets/img/cr/game-over.png" title="game-over" %}
     </div>
   </div>
-

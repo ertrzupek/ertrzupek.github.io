@@ -63,4 +63,3 @@ category: physical games (ctin 488)
         {% include figure.liquid loading="eager" path="assets/img/aotd/playtest-notes-2.png" title="notes-2"%}
     </div>
 </div>
-
