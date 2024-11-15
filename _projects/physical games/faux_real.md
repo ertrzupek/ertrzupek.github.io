@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Faux Real
-description: <u><b>playtest & UX lead</b></u><br/>designed from die-rolled constraints<br/>February - March 2024
+description: <u><b>playtest & UX lead</b></u><br/>designed from die-rolled constraints<br/>february - march 2024
 img: assets/img/fr/fr-heading.png
 importance: 2
 category: physical games (ctin 488)
 ---
 
-game basics & my responsibilities:
+<b>game basics & my responsibilities:</b>
 
 1. designed game around the following four constraints
    1. childhood memories

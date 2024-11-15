@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Art of the Deal
-description: <u><b>playtest & UX lead</b></u><br/>first original game<br/> March - May 2024
+description: <u><b>playtest & UX lead</b></u><br/>first original game<br/>march - may 2024
 img: assets/img/aotd/aotd-heading.png
 importance: 3
 category: physical games (ctin 488)
 ---
 
-game basics & my responsibilities:
+<b>game basics & my responsibilities:</b>
 
 1. focused project goal on modding Monopoly into a card game, and encorporating a museum theme
 2. designed rule book for the game, focusing on simple, easy to follow instructions and catching edge cases
