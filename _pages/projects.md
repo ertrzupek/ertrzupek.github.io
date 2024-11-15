@@ -17,6 +17,13 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
+  {% if category == "c++ games (itp 380)" %}
+    <div>
+      These are games made using <b>C++</b> and <b>SDL</b>, each taking about 10 - 12 hours.<br/>
+      They focus on a few core concepts that then build on each other for the following projects.<br/>
+      <br/>
+    </div>
+  {% endif %}
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   <!-- Generate cards for each project -->

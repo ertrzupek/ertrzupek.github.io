@@ -1,7 +1,7 @@
 ---
 layout: page
 title: USC Esports
-description: <u><b>programming/design lead</b></u><br/>the official site for USC Esports
+description: <u><b>programming/design lead</b></u><br/>the official site for USC Esports<br/>November 2024 - Ongoing
 img: assets/img/esports/esports-logo.png
 importance: 1
 category: published work

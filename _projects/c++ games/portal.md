@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portal
-description: forces, 3D collision, quaternions, JSON level loading
+description: forces, 3D collision, quaternions, JSON level loading (in progress)
 img:
 importance: 9
 category: c++ games (itp 380)
