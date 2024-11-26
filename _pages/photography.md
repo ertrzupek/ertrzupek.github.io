@@ -2,10 +2,10 @@
 layout: page
 title: photography
 permalink: /photography/
-description: my collection of personal photos and class projects
+description: my collection of professional work, class projects, and personal photos
 nav: true
 nav_order: 2
-display_categories: [projects (art 150), just for funsies]
+display_categories: [professional work, class projects, just for funsies]
 horizontal: false
 ---
 

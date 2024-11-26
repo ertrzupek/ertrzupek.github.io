@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Just Another Late Night Chef
-description: my present moment
+description: my present moment<br/>art 150
 img: assets/img/cooking/cooking-2-2.jpg
 importance: 1
-category: projects (art 150)
+category: class projects
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/cooking/cooking-install.jpg" title="prj1-install"%}

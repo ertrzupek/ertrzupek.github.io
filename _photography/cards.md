@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Face Card Never Declines
-description: portrait, prop, performance
+description: portrait, prop, performance<br/>art 150
 img: assets/img/cards/cards-4.jpg
 importance: 2
-category: projects (art 150)
+category: class projects
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/cards/cards-install.jpg" title="prj2-install"%}
