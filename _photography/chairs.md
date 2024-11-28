@@ -21,8 +21,6 @@ category: class projects
      <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/chairs/chairs-3.jpg" title="prj3-3"%}
     </div>
-</div>
-<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/chairs/chairs-4.jpg" title="prj3-4"%}
     </div>
