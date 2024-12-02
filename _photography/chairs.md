@@ -7,7 +7,7 @@ importance: 3
 category: class projects
 ---
 
-{% include figure.liquid loading="eager" path="assets/img/chairs/chairs-install.jpg" title="prj3-install (on its way)"%}
+{% include figure.liquid loading="eager" path="assets/img/chairs/chairs-install.jpg" title="prj3-install"%}
 
 <div class="caption">install photo</div>
 
