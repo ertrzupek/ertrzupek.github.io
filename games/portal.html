@@ -17,22 +17,27 @@
         background-color: #000;
         color: #fff;
       }
+
       textarea.emscripten {
         font-family: monospace;
         width: 80%;
         background-color: #000;
       }
+
       div.emscripten {
         text-align: center;
         background-color: #000;
       }
+
       div.emscripten_border {
         border: 1px solid #000;
       }
+
       canvas.emscripten {
         border: 0 none;
         background-color: #000;
       }
+
       .spinner {
         height: 50px;
         width: 50px;
@@ -48,40 +53,49 @@
         border-radius: 100%;
         background-color: #c864fa;
       }
+
       @-webkit-keyframes rotation {
         from {
           -webkit-transform: rotate(0);
         }
+
         to {
           -webkit-transform: rotate(360deg);
         }
       }
+
       @-moz-keyframes rotation {
         from {
           -moz-transform: rotate(0);
         }
+
         to {
           -moz-transform: rotate(360deg);
         }
       }
+
       @-o-keyframes rotation {
         from {
           -o-transform: rotate(0);
         }
+
         to {
           -o-transform: rotate(360deg);
         }
       }
+
       @keyframes rotation {
         from {
           transform: rotate(0);
         }
+
         to {
           transform: rotate(360deg);
         }
       }
     </style>
   </head>
+
   <body style="background-color: #000">
     <figure id="spinner" style="overflow: visible">
       <div class="spinner"></div>
@@ -90,6 +104,15 @@
     <div class="emscripten" id="status">Downloading...</div>
     <div class="emscripten"><progress hidden id="progress" max="100" value="0"></progress></div>
     <div class="emscripten_border"><canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" tabindex="-1"></canvas></div>
+    <div class="emscripten">
+      <input type="checkbox" id="resize" />Resize canvas <input type="checkbox" id="pointerLock" checked />Lock/hide mouse pointer    
+      <input
+        type="button"
+        onclick='Module.requestFullscreen(document.getElementById("pointerLock").checked,document.getElementById("resize").checked)'
+        value="Fullscreen"
+      />
+    </div>
+    <textarea class="emscripten" id="output" rows="8"></textarea>
     <script>
       var statusElement = document.getElementById("status"),
         progressElement = document.getElementById("progress"),
