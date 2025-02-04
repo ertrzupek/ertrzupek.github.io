@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Crossy Road
-description: <u><b>programming lead</b></u><br/>first published game<br/>october - november 2024
+description: <u><b>programming lead</b></u><br/>first published game<br/>november - december 2024
 img: assets/img/cr/cr-heading.png
 importance: 1
 category: published work
@@ -10,7 +10,7 @@ category: published work
 this game was designed by myself and Natalie Chang (CS Games '26, art/audio lead).<br/>
 it was created with the support of the Annenberg Media team, as part of their new initiative to generate better viewer engagement through simple quick-play games.
 
-when this game is released, you will be able to find it <a href="https://www.uscannenbergmedia.com/games/">here!</a>
+you can play it <a href="https://www.uscannenbergmedia.com/games/">here</a>, on the annenberg games site.
 
 <b>my responsibilities:</b>
 
