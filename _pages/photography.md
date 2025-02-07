@@ -49,8 +49,8 @@ horizontal: false
   </div>
   <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/lighting.jpg" title="lighting" %}
-        <div class="caption">golden hour</div>
+        {% include figure.liquid loading="eager" path="assets/img/police.jpg" title="lighting" %}
+        <div class="caption">nypd</div>
         {% include figure.liquid loading="eager" path="assets/img/moon-2.jpg" title="moon 2" %}
         <div class="caption">the moon</div>
     </div>

@@ -5,7 +5,7 @@ permalink: /projects/
 description: a collection of class projects & games designed for Annenberg
 nav: true
 nav_order: 1
-display_categories: [published work, physical games (ctin 488), c++ games (itp 380)]
+display_categories: [class projects, published work, c++ games (itp 380), physical games (ctin 488)]
 horizontal: false
 ---
 
@@ -19,7 +19,7 @@ horizontal: false
   </a>
   {% if category == "c++ games (itp 380)" %}
     <div>
-      These are games made using <b>C++</b> and <b>SDL</b>, each taking about 10 - 12 hours.<br/>
+      These are games made using <b>C++</b> and <b>SDL</b>, each taking about 7 - 9 hours.<br/>
       They focus on a few core concepts that then build on each other for the following projects.<br/>
       <br/>
     </div>
