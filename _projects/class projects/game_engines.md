@@ -51,3 +51,12 @@ category: class projects
         {% include figure.liquid loading="eager" path="assets/img/itp485/models.png" title="part 5 img" %}
     </div>
 </div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/itp485/animation.gif" title="part 6 gif" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>part 6 - animation</center>
+    </div>
+</div>
