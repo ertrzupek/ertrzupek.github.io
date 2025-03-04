@@ -42,7 +42,7 @@ horizontal: false
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/moon-1.jpg" title="moon 1" %}
-        <div class="caption">moon and wires</div>
+        <div class="caption">lunar electrics</div>
         {% include figure.liquid loading="eager" path="assets/img/emergency.jpg" title="emergency" %}
         <div class="caption">emergency</div>
     </div>
