@@ -2,7 +2,7 @@
 layout: page
 title: Game Engines
 description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>itp 485 (in progress)
-img: assets/img/itp485/models.png
+img: assets/img/itp485/animation.gif
 importance: 1
 category: class projects
 ---
@@ -107,7 +107,7 @@ category: class projects
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/shader1.gif" title="extra 1 img" %}
+        {% include figure.liquid loading="eager" path="assets/img/itp485/shader1.png" title="extra 1 img" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
