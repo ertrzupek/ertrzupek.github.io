@@ -42,9 +42,11 @@ key skills learned:
             - <br/>
             - <br/>
             - <br/>
+            {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.png" title="part 8 png" %}
        </center>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.gif" title="part 8 gif" %}
     </div>
 </div>
 <hr>
@@ -111,9 +113,9 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
        <center>
             <b>texture</b><br/>
-            - <br/>
-            - <br/>
-            - <br/>
+            - implemented a z-buffer so that shapes could be drawn with depth and inside one another<br/>
+            - loaded a texture and created a new mesh to handle its uv coordinates<br/>
+            - added that texture to the cube I had from the previous lab.<br/>
        </center>
     </div>
 </div>
@@ -122,9 +124,9 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>cube</b><br/>
-            - <br/>
-            - <br/>
-            - <br/>
+            - added a to move objects around, and a camera class to fix warping<br/>
+            - then I made a cube :)<br/>
+            - added the vertex and index arrays taking into account proper draw order<br/>
         </center>
     </div>
     <div class="col-sm mt-3 mt-md-0">
