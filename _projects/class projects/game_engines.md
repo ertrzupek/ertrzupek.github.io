@@ -10,36 +10,9 @@ category: class projects
 key skills learned:
 - advanced graphics debugging though Visual Studio
 - applying high-level vector math
-- writing complex shaders
+- writing complex hlsl shaders
 - multithreading work to improve performance
-- designing unit tests to 
-<hr>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <center>
-            <b>bloom (post processing)</b><br/>
-        </center>
-        - <br/>
-        - <br/>
-        - <br/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-</div>
-<hr>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        <center>
-            <b>normal maps</b><br/>
-        </center>
-        - <br/>
-        - <br/>
-        - <br/>
-    </div>
-</div>
-<hr>
+- designing rigorous unit tests
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -47,12 +20,9 @@ key skills learned:
         </center>
         - added a profiler and timer to track how long different functions take to run<br/>
         - wrote this data to both a txt file and a json file with the purpose of better understanding the timing of the various functions being tracked<br/>
-        - learned to use chrome tracing and how to visually analyze this timed data<br/>
-        - implemented a job manager and multithreaded workers to complete animation jobs with the goal of improving runtime<br/>
+        - learned to use chrome tracing to visualize that data<br/>
+        - implemented a job manager and multithreaded workers to various jobs<br/>
         {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.png" title="part 8 png" %}
-        <center>
-            multithreading as shown by chrome tracing
-        </center>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.gif" title="part 8 gif" %}
@@ -68,7 +38,7 @@ key skills learned:
             <b>collision</b><br/>
        </center>
         - implemented a Physics class, with AABBs and LineSegments<br/>
-        - for that, I made a unit test system for the intersection functions so they could be tested before actually being used<br/>
+        - designed a unit test system for the intersection functions so they could be tested before being implemented<br/>
         - added a collision component to the player character so that it can stand on platforms and fall if not on the ground<br/>
     </div>
 </div>
@@ -135,8 +105,7 @@ key skills learned:
             <b>cube</b><br/>
         </center>
         - added a matrix to move objects around, and a camera class to fix warping<br/>
-        - then I made a cube :)<br/>
-        - added the vertex and index arrays taking into account proper draw order<br/>
+        - added the vertex and index arrays for the cube, taking into account proper draw order<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/itp485/cube.gif" title="part 2 gif" %}
