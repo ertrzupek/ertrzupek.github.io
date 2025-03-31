@@ -7,10 +7,16 @@ importance: 1
 category: class projects
 ---
 
+key skills learned:
+- advanced graphics debugging though Visual Studio
+- applying high-level vector math
+- writing complex shaders
+- multithreading work to improve performance
+<hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            part 1 - triangle<br/>
+            <b>part 1 - triangle</b><br/>
             - <br/>
             - <br/>
             - <br/>
@@ -27,7 +33,7 @@ category: class projects
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            part 2 - cube<br/>
+            <b>part 2 - cube</b><br/>
             - <br/>
             - <br/>
             - <br/>
@@ -38,7 +44,7 @@ category: class projects
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
        <center>
-            part 3 - texture<br/>
+            <b>part 3 - texture</b><br/>
             - <br/>
             - <br/>
             - <br/>
@@ -55,7 +61,7 @@ category: class projects
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            part 4 - lighting<br/>
+            <b>part 4 - lighting</b><br/>
             - <br/>
             - <br/>
             - <br/>
@@ -66,7 +72,7 @@ category: class projects
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            part 5 - models<br/>
+            <b>part 5 - models</b><br/>
             - <br/>
             - <br/>
             - <br/>
@@ -83,7 +89,7 @@ category: class projects
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            part 6 - animation<br/>
+            <b>part 6 - animation</b><br/>
             - <br/>
             - <br/>
             - <br/>
@@ -94,7 +100,7 @@ category: class projects
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            part 7 - collision<br/>
+            <b>part 7 - collision</b><br/>
             - <br/>
             - <br/>
             - <br/>
@@ -111,10 +117,7 @@ category: class projects
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            extra 1 - shaders<br/>
-            - <br/>
-            - <br/>
-            - <br/>
+            <b>extra 1 - lambert / rim / half lambert shaders</b><br/>
        </center>
     </div>
 </div>
