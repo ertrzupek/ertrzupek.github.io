@@ -268,9 +268,45 @@
             - <br>
             - <br>
             - <br>
+            
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/itp485/jobs.png" width="100%" height="auto" title="part 8 png" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
        </center>
     </div>
     <div class="col-sm mt-3 mt-md-0">
+    
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/itp485/jobs.gif" width="100%" height="auto" title="part 8 gif" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
     </div>
 </div>
 <hr>
@@ -427,9 +463,9 @@
     <div class="col-sm mt-3 mt-md-0">
        <center>
             <b>texture</b><br>
-            - <br>
-            - <br>
-            - <br>
+            - implemented a z-buffer so that shapes could be drawn with depth and inside one another<br>
+            - loaded a texture and created a new mesh to handle its uv coordinates<br>
+            - added that texture to the cube I had from the previous lab.<br>
        </center>
     </div>
 </div>
@@ -439,9 +475,9 @@
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>cube</b><br>
-            - <br>
-            - <br>
-            - <br>
+            - added a to move objects around, and a camera class to fix warping<br>
+            - then I made a cube :)<br>
+            - added the vertex and index arrays taking into account proper draw order<br>
         </center>
     </div>
     <div class="col-sm mt-3 mt-md-0">
