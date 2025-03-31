@@ -139,10 +139,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>triangle</b><br/>
-            - created a vertex buffer to take in the vertices of the triangle<br/>
-            - implemented a simple shader to render the triangle on screen<br/>
-            - created helper classes (VertexBuffer, RenderObj) to encapsulate rendering of simple objects<br/>
        </center>
+        - created a vertex buffer to take in the vertices of the triangle<br/>
+        - implemented a simple shader to render the triangle on screen<br/>
+        - created helper classes (VertexBuffer, RenderObj) to encapsulate rendering of simple objects<br/>
     </div>
 </div>
 <hr>
@@ -150,11 +150,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>lambert / rim / half lambert shaders</b><br/>
-            - implemented a lambert shader, the diffuse part of phong lighting<br/>
-            - modified lambert to follow half-life's model, half-lambert<br/>
-            - let the light wrap around the object, only hit black at 180&deg;<br/>
-            - finally, added a rim shader to the half-lambert<br/>
        </center>
+       - implemented a lambert shader, only the diffuse part of phong lighting<br/>
+        - modified lambert to follow half-life's shading model, half-lambert (let the light wrap around the object, only hit black at 180&deg;)<br/>
+        - finally, added a rim shader to the half-lambert<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/itp485/shader1.png" title="extra 1 img" %}
