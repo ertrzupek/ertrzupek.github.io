@@ -17,8 +17,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>bloom (post processing)</b><br/>
-            - to do...<br/>
        </center>
+        - <br/>
+        - <br/>
+        - <br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
     </div>
@@ -30,8 +32,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>normal maps</b><br/>
-            - to do...<br/>
        </center>
+        - <br/>
+        - <br/>
+        - <br/>
     </div>
 </div>
 <hr>
@@ -39,11 +43,11 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>jobs</b><br/>
-            - <br/>
-            - <br/>
-            - <br/>
-            {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.png" title="part 8 png" %}
        </center>
+        - <br/>
+        - <br/>
+        - <br/>
+        {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.png" title="part 8 png" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
     {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.gif" title="part 8 gif" %}
@@ -57,10 +61,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>collision</b><br/>
-            - <br/>
-            - <br/>
-            - <br/>
        </center>
+        - <br/>
+        - <br/>
+        - <br/>
     </div>
 </div>
 <hr>
@@ -68,10 +72,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>animation</b><br/>
-            - <br/>
-            - <br/>
-            - <br/>
        </center>
+        - <br/>
+        - <br/>
+        - <br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/itp485/animation.gif" title="part 6 gif" %}
@@ -85,10 +89,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>models</b><br/>
-            - <br/>
-            - <br/>
-            - <br/>
        </center>
+        - <br/>
+        - <br/>
+        - <br/>
     </div>
 </div>
 <hr>
@@ -96,10 +100,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>lighting</b><br/>
-            - <br/>
-            - <br/>
-            - <br/>
        </center>
+        - <br/>
+        - <br/>
+        - <br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/itp485/lighting.gif" title="part 4 gif" %}
@@ -113,10 +117,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
        <center>
             <b>texture</b><br/>
-            - implemented a z-buffer so that shapes could be drawn with depth and inside one another<br/>
-            - loaded a texture and created a new mesh to handle its uv coordinates<br/>
-            - added that texture to the cube I had from the previous lab.<br/>
        </center>
+        - implemented a z-buffer so that shapes could be drawn with depth and inside one another<br/>
+        - loaded a texture and created a new mesh to handle its uv coordinates<br/>
+        - added that texture to the cube I had from the previous lab.<br/>
     </div>
 </div>
 <hr>
@@ -124,10 +128,10 @@ key skills learned:
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>cube</b><br/>
-            - added a to move objects around, and a camera class to fix warping<br/>
-            - then I made a cube :)<br/>
-            - added the vertex and index arrays taking into account proper draw order<br/>
         </center>
+        - added a to move objects around, and a camera class to fix warping<br/>
+        - then I made a cube :)<br/>
+        - added the vertex and index arrays taking into account proper draw order<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/itp485/cube.gif" title="part 2 gif" %}
