@@ -236,6 +236,41 @@
   <li>multithreading work to improve performance</li>
   <li>designing rigorous unit tests</li>
 </ul>
+<hr>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/itp485/normals.gif" width="100%" height="auto" title="part 9 gif" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>normal maps</b><br>
+       </center>
+        - added a new texture slot for the normal map in the graphics class and added that to the hlsl constants<br>
+        - created a new input layout to be able to take in the tangent variable<br>
+        - implemented the normal map shader<br>
+        - created a simple rotation component that can be added to any object to verify the normal map works properly<br>
+    </div>
+</div>
+<hr>
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
