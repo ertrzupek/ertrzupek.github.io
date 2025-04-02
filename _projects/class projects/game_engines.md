@@ -13,6 +13,22 @@ key skills learned:
 - writing complex hlsl shaders
 - multithreading work to improve performance
 - designing rigorous unit tests
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/itp485/normals.gif" title="part 9 gif" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>normal maps</b><br/>
+       </center>
+        - added a new texture slot for the normal map in the graphics class and added that to the hlsl constants<br/>
+        - created a new input layout to be able to take in the tangent variable<br/>
+        - implemented the normal map shader<br/>
+        - created a simple rotation component that can be added to any object to verify the normal map works properly<br/>
+    </div>
+</div>
+<hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
