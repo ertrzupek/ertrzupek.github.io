@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Game Engines
-description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>itp 485 (in progress)
+title: Engine Design
+description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>
 img: assets/img/itp485/animation.gif
 importance: 1
 category: class projects
@@ -10,10 +10,10 @@ category: class projects
 key skills learned:
 
 - advanced graphics debugging though Visual Studio
-- applying high-level vector math
 - writing complex hlsl shaders
-- multithreading work to improve performance
+- profiling multithreaded jobs to analyze performance
 - designing rigorous unit tests
+- applying high-level vector math
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
