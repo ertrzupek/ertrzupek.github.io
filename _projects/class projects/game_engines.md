@@ -2,7 +2,7 @@
 layout: page
 title: Engine Design
 description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>
-img: assets/img/itp485/animation.gif
+img: assets/img/engines/animation.gif
 importance: 1
 category: class projects
 ---
@@ -17,7 +17,22 @@ key skills learned:
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/normals.gif" title="part 9 gif" %}
+        <center>
+            <b>post processing (bloom)</b><br/>
+        </center>
+        - created an off screen <b>render target</b> to save the scene as a texture<br/>
+        - made a <b>bloom shader</b> to isolate the bright parts of the image<br/>
+        - added down-sampled targets, half and quarter, to apply a <b>two-pass gaussian blur</b> with linear sampling<br/>
+        - implemented two different <b>blend states</b> (opaque and additive) to add the bloom filter onto the original rendering<br/>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/engines/bloom.gif" title="part 10 gif" %}
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/engines/normals.gif" title="part 9 gif" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -39,16 +54,16 @@ key skills learned:
         - wrote this data to both a <b>txt</b> and <b>json</b> file to save the timing of the various functions being tracked<br/>
         - implemented a job manager and <b>multithreaded</b> workers to handle various jobs<br/>
         - learned to use <b>chrome tracing</b> to visualize that data &darr;<br/>
-        {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.png" title="part 8 png" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/jobs.png" title="part 8 png" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.gif" title="part 8 gif" %}
+    {% include figure.liquid loading="eager" path="assets/img/engines/jobs.gif" title="part 8 gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/collision.gif" title="part 7 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/collision.gif" title="part 7 gif" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -70,13 +85,13 @@ key skills learned:
         - added a <b>skinned shader</b> to handle the the matrix vector and all the bones of the model<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/animation.gif" title="part 6 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/animation.gif" title="part 6 gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/models.png" title="part 5 img" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/models.png" title="part 5 img" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -98,13 +113,13 @@ key skills learned:
         - created a <b>phong shader</b> to consider point light colors, material constants, and color/texture of the cube<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/lighting.gif" title="part 4 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/lighting.gif" title="part 4 gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/texture.gif" title="part 3 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/texture.gif" title="part 3 gif" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -125,13 +140,13 @@ key skills learned:
         - added the vertex and index arrays for the cube, taking into account proper draw order<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/cube.gif" title="part 2 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/cube.gif" title="part 2 gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/triangle.png" title="part 1 img" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/triangle.png" title="part 1 img" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -153,6 +168,6 @@ key skills learned:
         - finally, added a rim shader to the half-lambert<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/itp485/shader1.png" title="extra 1 img" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/shader1.png" title="extra 1 img" %}
     </div>
 </div>
