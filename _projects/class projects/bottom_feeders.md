@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Bottom Feeders
-description: <u><b>programming lead</b></u><br/>first full production game<br/>ctin 489 (in progress)
-img: assets/img/bf/player-mockup.jpg
+description: <u><b>producer & programming lead</b></u><br/>multiplayer platforming party game<br/>january - may 2025
+img: assets/img/bf/icon.png
 importance: 2
 category: class projects
 ---

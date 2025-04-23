@@ -1,18 +1,19 @@
 ---
 layout: page
-title: Game Engines
-description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>itp 485 (in progress)
+title: Engine Design
+description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>
 img: assets/img/itp485/animation.gif
 importance: 1
 category: class projects
 ---
 
 key skills learned:
+
 - advanced graphics debugging though Visual Studio
-- applying high-level vector math
 - writing complex hlsl shaders
-- multithreading work to improve performance
+- profiling multithreaded jobs to analyze performance
 - designing rigorous unit tests
+- applying high-level vector math
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -22,10 +23,10 @@ key skills learned:
         <center>
             <b>normal maps</b><br/>
        </center>
-        - added a new texture slot for the normal map in the graphics class and added that to the hlsl constants<br/>
-        - created a new input layout to be able to take in the tangent variable<br/>
+        - added a new <b>texture slot</b> for the normal map in the graphics class and added that texture to the hlsl constants<br/>
+        - created a new input layout to be able to take in the <b>tangent</b> variable<br/>
         - implemented the normal map shader<br/>
-        - created a simple rotation component that can be added to any object to verify the normal map works properly<br/>
+        - created a simple <b>rotation</b> component that can be added to any object to verify the normal map works properly<br/>
     </div>
 </div>
 <hr>
@@ -34,10 +35,10 @@ key skills learned:
         <center>
             <b>jobs</b><br/>
         </center>
-        - added a profiler and timer to track how long different functions take to run<br/>
-        - wrote this data to both a txt file and a json file with the purpose of better understanding the timing of the various functions being tracked<br/>
-        - learned to use chrome tracing to visualize that data<br/>
-        - implemented a job manager and multithreaded workers to various jobs<br/>
+        - added a <b>profiler</b> and <b>timer</b> to track how long different functions take to run<br/>
+        - wrote this data to both a <b>txt</b> and <b>json</b> file to save the timing of the various functions being tracked<br/>
+        - implemented a job manager and <b>multithreaded</b> workers to handle various jobs<br/>
+        - learned to use <b>chrome tracing</b> to visualize that data &darr;<br/>
         {% include figure.liquid loading="eager" path="assets/img/itp485/jobs.png" title="part 8 png" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
@@ -54,7 +55,7 @@ key skills learned:
             <b>collision</b><br/>
        </center>
         - implemented a Physics class, with AABBs and LineSegments<br/>
-        - designed a unit test system for the intersection functions so they could be tested before being implemented<br/>
+        - designed a <b>unit test system</b> for the AABB-AABB and AABB-LineSegment intersection<br/>
         - added a collision component to the player character so that it can stand on platforms and fall if not on the ground<br/>
     </div>
 </div>
@@ -64,9 +65,9 @@ key skills learned:
         <center>
             <b>animation</b><br/>
         </center>
-        - implemented skeleton and bonetransform classes to handle info about bones and how they relate to their parents through transform matrices<br/>
+        - implemented skeleton and bonetransform classes to handle information about bones/relations their parent through transform matrices<br/>
         - created an animation class to dictate how those bones will move over the course of an animation<br/>
-        - added a skinned shader to handle the the matrix vector and all the bones of the model<br/>
+        - added a <b>skinned shader</b> to handle the the matrix vector and all the bones of the model<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/itp485/animation.gif" title="part 6 gif" %}
@@ -81,9 +82,9 @@ key skills learned:
         <center>
             <b>models</b><br/>
         </center>
-        - created an asset manager to cache various important classes for reuse.<br/>
-        - implemented json level loading for scene objects<br/>
-        - added "components" to scene objects to allow for different behavior, demonstrated with a point light component<br/>
+        - created an asset manager to cache various important assets for reuse.<br/>
+        - implemented <b>json level loading</b> for scene objects<br/>
+        - added <b>components</b> to scene objects to allow for different behavior, demonstrated with a point light component<br/>
     </div>
 </div>
 <hr>
@@ -94,7 +95,7 @@ key skills learned:
         </center>
         - added a material class to keep track of different properties of objects such as specular power, etc.<br/>
         - implemented the lighting system to keep track of point lights in the scene<br/>
-        - created a phong shader to consider point light colors, material constants, and color/texture of the cube<br/>
+        - created a <b>phong shader</b> to consider point light colors, material constants, and color/texture of the cube<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/itp485/lighting.gif" title="part 4 gif" %}
@@ -109,9 +110,9 @@ key skills learned:
         <center>
             <b>texture</b><br/>
         </center>
-        - implemented a z-buffer so that shapes could be drawn with depth and inside one another<br/>
-        - loaded a texture and created a new mesh to handle its uv coordinates<br/>
-        - added that texture to the cube I had from the previous lab.<br/>
+        - implemented a <b>z-buffer</b> so that shapes could be drawn with depth and inside one another<br/>
+        - loaded a texture and created a new mesh to handle its <b>uv coordinates</b><br/>
+        - added that texture information to the cube shader<br/>
     </div>
 </div>
 <hr>
