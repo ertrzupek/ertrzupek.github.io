@@ -26,13 +26,13 @@ key skills learned:
         - implemented two different <b>blend states</b> (opaque and additive) to add the bloom filter onto the original rendering<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/bloom.gif" title="part 10 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/bloom.gif" title="bloom gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/normals.gif" title="part 9 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/normals.gif" title="normal maps gif" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -54,16 +54,16 @@ key skills learned:
         - wrote this data to both a <b>txt</b> and <b>json</b> file to save the timing of the various functions being tracked<br/>
         - implemented a job manager and <b>multithreaded</b> workers to handle various jobs<br/>
         - learned to use <b>chrome tracing</b> to visualize that data &darr;<br/>
-        {% include figure.liquid loading="eager" path="assets/img/engines/jobs.png" title="part 8 png" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/jobs.png" title="jobs png" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/engines/jobs.gif" title="part 8 gif" %}
+    {% include figure.liquid loading="eager" path="assets/img/engines/jobs.gif" title="jobs gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/collision.gif" title="part 7 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/collision.gif" title="collision gif" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -78,6 +78,32 @@ key skills learned:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
+            <b>toon shading</b><br/>
+        </center>
+        - implemented a <b>toon shader</b> with a four color threshold, based on a single colored directional light
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/engines/toon.gif" title="toon gif" %}
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/engines/lambert.png" title="lambert shader img" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>lambert / rim / half lambert shaders</b><br/>
+        </center>
+       - implemented a lambert shader, only the diffuse part of phong lighting<br/>
+        - modified lambert to follow half-life's shading model, half-lambert (let the light wrap around the object, only hit black at 180&deg;)<br/>
+        - finally, added a rim shader to the half-lambert<br/>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
             <b>animation</b><br/>
         </center>
         - implemented skeleton and bonetransform classes to handle information about bones/relations their parent through transform matrices<br/>
@@ -85,13 +111,13 @@ key skills learned:
         - added a <b>skinned shader</b> to handle the the matrix vector and all the bones of the model<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/animation.gif" title="part 6 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/animation.gif" title="animation gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/models.png" title="part 5 img" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/models.png" title="models img" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -113,13 +139,13 @@ key skills learned:
         - created a <b>phong shader</b> to consider point light colors, material constants, and color/texture of the cube<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/lighting.gif" title="part 4 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/lighting.gif" title="lighting gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/texture.gif" title="part 3 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/texture.gif" title="texture gif" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -140,13 +166,13 @@ key skills learned:
         - added the vertex and index arrays for the cube, taking into account proper draw order<br/>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/cube.gif" title="part 2 gif" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/cube.gif" title="cube gif" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/triangle.png" title="part 1 img" %}
+        {% include figure.liquid loading="eager" path="assets/img/engines/triangle.png" title="triangle img" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
@@ -155,19 +181,5 @@ key skills learned:
         - created a vertex buffer to take in the vertices of the triangle<br/>
         - implemented a simple shader to render the triangle on screen<br/>
         - created helper classes (VertexBuffer, RenderObj) to encapsulate rendering of simple objects<br/>
-    </div>
-</div>
-<hr>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <center>
-            <b>lambert / rim / half lambert shaders</b><br/>
-        </center>
-       - implemented a lambert shader, only the diffuse part of phong lighting<br/>
-        - modified lambert to follow half-life's shading model, half-lambert (let the light wrap around the object, only hit black at 180&deg;)<br/>
-        - finally, added a rim shader to the half-lambert<br/>
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/engines/shader1.png" title="extra 1 img" %}
     </div>
 </div>
