@@ -4,7 +4,7 @@ title: Engine Design
 description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>
 img: assets/img/engines/animation.gif
 importance: 1
-category: class projects
+category: game projects
 ---
 
 key skills learned:
