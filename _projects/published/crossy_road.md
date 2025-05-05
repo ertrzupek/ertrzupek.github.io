@@ -32,4 +32,4 @@ you can play it <a href="https://www.uscannenbergmedia.com/games/">here</a>, on 
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/cr/game-over.png" title="game-over" %}
     </div>
-  </div>
+</div>
