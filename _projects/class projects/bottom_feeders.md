@@ -11,20 +11,23 @@ Ultimate Chicken Horse mechanics meet Titanfall 2 movement.<br>
 Bottom Feeders is a <b>multiplayer party game</b> where every round players place <b>traps</b> to build up the dangers of the level, and <b>parkour</b> against their friends as the level gets more and more complex.
 
 <b>Experience Goals </b>
+
 1. Players should feel competition and exhilaration
 2. Players should have friendly fun with friends
 
 <b>Design Goals</b>
+
 1. Competitive multiplayer party game
 2. Easy to learn, hard to master
 3. Strategy to hinder others without hurting your chances
 
 <b>My Responsibilities</b>
+
 1. Ensured networking mechanics were implemented smoothly. This included:<br>
-&#9;a. <b>Steam</b> integration for easy lobby hosting<br>
-&#9;b. Trap placement synced across hosts<br>
-&#9;c. Networked <b>particle</b> and <b>audio</b> systems<br>
-&#9;d. And all of the general networking items, such as <b>rigidbody</b> compatibility and synced <b>state machines</b><br>
+   &#9;a. <b>Steam</b> integration for easy lobby hosting<br>
+   &#9;b. Trap placement synced across hosts<br>
+   &#9;c. Networked <b>particle</b> and <b>audio</b> systems<br>
+   &#9;d. And all of the general networking items, such as <b>rigidbody</b> compatibility and synced <b>state machines</b><br>
 2. Designed complex <b>trap mechanics</b> to fuel engaging <b>player interactions</b>
 3. Planned and executed multiple <b>playtests</b>, and used that feedback for future iterations
 4. Implemented aesthetic <b>UI elements</b> to improve the user experience
