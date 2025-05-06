@@ -17,6 +17,20 @@ key skills learned:
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/engines/ik.gif" title="ik gif" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>basic inverse kinematics</b><br/>
+       </center>
+        - implemented one iteration of FABRIK (unconstrained)<br/>
+        - added a debug line to verify the position calculations before adding rotations<br/>
+        - utilized debug axes to visualize joint positions/rotations<br/>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>post processing (bloom)</b><br/>
         </center>
