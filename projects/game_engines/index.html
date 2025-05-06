@@ -241,6 +241,38 @@
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
+        
+
+
+
+<figure>
+  <picture>
+    <!-- Auto scaling with imagemagick -->
+    <!--
+      See https://www.debugbear.com/blog/responsive-images#w-descriptors-and-the-sizes-attribute and
+      https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images for info on defining 'sizes' for responsive images
+    -->
+    
+    <img src="/assets/img/engines/ik.gif" width="100%" height="auto" title="ik gif" loading="eager" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+  </picture>
+
+  
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>basic inverse kinematics</b><br>
+       </center>
+        - implemented one iteration of FABRIK (unconstrained)<br>
+        - added a debug line to verify the position calculations before adding rotations<br>
+        - utilized debug axes to visualize joint positions/rotations<br>
+    </div>
+</div>
+<hr>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>post processing (bloom)</b><br>
         </center>
