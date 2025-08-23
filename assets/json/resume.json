@@ -37,14 +37,22 @@
     {
       "name": "Masterworks of Horror",
       "summary": "Engineer & Tech Artist",
-      "highlights": ["Designed the board and card systems as proof-of-concept work", "Asked to pivot to tech art / shader creation for card effects, taught myself Unity's ShaderGraph system", "Gained experience with Jira and project management"],
+      "highlights": [
+        "Designed the board and card systems as proof-of-concept work",
+        "Asked to pivot to tech art / shader creation for card effects, taught myself Unity's ShaderGraph system",
+        "Gained experience with Jira and project management"
+      ],
       "startDate": "06-2025",
       "url": "/projects/masterworks"
     },
     {
       "name": "USC Crossy Road",
       "summary": "First professional published game.",
-      "highlights": ["First time working with a game engine", "Learned the workflow of Godot and taught it to teammates", "Cultivated skills in team management and leadership"],
+      "highlights": [
+        "First time working with a game engine",
+        "Learned the workflow of Godot and taught it to teammates",
+        "Cultivated skills in team management and leadership"
+      ],
       "startDate": "10-2024",
       "endDate": "11-2024",
       "url": "/projects/crossy_road"
