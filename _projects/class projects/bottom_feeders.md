@@ -32,7 +32,7 @@ Bottom Feeders is a <b>multiplayer party game</b> where every round players plac
 3. Planned and executed multiple <b>playtests</b>, and used that feedback for future iterations
 4. Implemented aesthetic <b>UI elements</b> to improve the user experience
 5. Developed a detailed <b>burndown chart</b> to ensure all four sprints of production went smoothly
-6. Directing an engaging trailer to communicate the "X" and "Y" of the game
+6. Directed an engaging trailer to communicate the "X" and "Y" of the game
 
 <center><b>The Trailer</b></center>
 <div class="row">

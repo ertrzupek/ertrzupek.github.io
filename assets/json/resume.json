@@ -33,19 +33,24 @@
       "summary": "USC faculty and staff select the recipients of this scholarship from an extremely competitive group of freshman applicants (100 out of 80,000). The award covers full tuition."
     }
   ],
-  "involvement": [
+  "projects": [
     {
-      "organization": "Annenberg Media",
-      "location": "Los Angeles, CA",
-      "position": "Game Designer",
-      "url": "https://www.uscannenbergmedia.com/",
-      "startDate": "09-2024",
-      "highlights": [
-        "Produce games for Annenberg's media website with over 15,000 users",
-        "Improve game experiences through community feedback and weekly user playtesting",
-        "Train other team members in game development fundamentals and code quality principles"
-      ]
+      "name": "Masterworks of Horror",
+      "summary": "Engineer & Tech Artist",
+      "highlights": ["Designed the board and card systems as proof-of-concept work", "Asked to pivot to tech art / shader creation for card effects, taught myself Unity's ShaderGraph system", "Gained experience with Jira and project management"],
+      "startDate": "06-2025",
+      "url": "/projects/masterworks"
     },
+    {
+      "name": "USC Crossy Road",
+      "summary": "First professional published game.",
+      "highlights": ["First time working with a game engine", "Learned the workflow of Godot and taught it to teammates", "Cultivated skills in team management and leadership"],
+      "startDate": "10-2024",
+      "endDate": "11-2024",
+      "url": "/projects/crossy_road"
+    }
+  ],
+  "involvement": [
     {
       "organization": "USC Esports",
       "location": "Los Angeles, CA",
@@ -65,25 +70,41 @@
         "Communicate with members about book polls and social events through weekly email newsletter",
         "Organize E-Board meetings and take detailed minutes of important information"
       ]
-    }
-  ],
-  "projects": [
+    },
     {
-      "name": "USC Crossy Road",
-      "summary": "First professional published game.",
-      "highlights": ["First time working with a game engine", "Learned the workflow of Godot", "Cultivated skills in team management and leadership"],
-      "startDate": "10-2024",
-      "endDate": "11-2024",
-      "url": "/projects/crossy_road"
+      "organization": "Annenberg Media",
+      "location": "Los Angeles, CA",
+      "position": "Game Designer",
+      "url": "https://www.uscannenbergmedia.com/",
+      "startDate": "09-2024",
+      "endDate": "05-2025",
+      "highlights": [
+        "Produce games for Annenberg's media website with over 15,000 users",
+        "Improve game experiences through community feedback and weekly user playtesting",
+        "Train other team members in game development fundamentals and code quality principles"
+      ]
     }
   ],
   "work": [
+    {
+      "name": "Girls Make Games",
+      "position": "Camp Counselor / Mentor / Producer",
+      "url": "https://www.girlsmakegames.com/",
+      "startDate": "07-2025",
+      "endDate": "07-2025",
+      "highlights": [
+        "Teach campers the basics of Construct 3, a web-based game engine",
+        "Guide campers' ideas into a solid game concept, scoping as necessary to reach a finished project in 2 weeks",
+        "Manage milestones and task sheet to ensure project is on time and still managable, scaling down whenever needed based on pace so campers don't get overwhelmed"
+      ]
+    },
     {
       "name": "Winding Trails Summer Day Camp",
       "position": "Unit Director",
       "location": "Farmington, CT",
       "url": "https://www.windingtrails.org/",
       "startDate": "06-2023",
+      "endDate": "08-2025",
       "highlights": [
         "Create and lead multiple daily activities for the unit's 150 campers (ages 7 through 9)",
         "Mentor new staff member and present actionable feedback through mid-summer evaluation",
@@ -120,7 +141,7 @@
     {
       "name": "Work",
       "icon": "fa-solid fa-star",
-      "keywords": ["Engine Design", "Production", "Gameplay Programming", "Quality Assurance"]
+      "keywords": ["Engine Design", "Production", "Gameplay Programming", "Tech Art / Shaders"]
     },
     {
       "name": "Games",

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Portal
-description: forces, 3D collision, quaternions, actor parenting, AI, UI
-img:
-importance: 9
-category: c++ games (itp 380)
+description: <u><b>tac 380 final project</b></u><br/>c++ game built without an engine<br/>december 2024
+img: assets/img/portal.png
+importance: 3
+category: game projects
 ---
 
 <a href="../../games/portal.html" target="_blank">play fullscreen here</a>

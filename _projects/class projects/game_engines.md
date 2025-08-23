@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Engine Design
-description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>
+description: <u><b>c++, hlsl, directx</b></u><br/>building a game engine from scratch<br/>january - may 2025
 img: assets/img/engines/animation.gif
 importance: 1
 category: game projects
