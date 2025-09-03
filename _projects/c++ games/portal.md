@@ -2,7 +2,7 @@
 layout: page
 title: Portal
 description: <u><b>tac 380 final project</b></u><br/>c++ game built without an engine<br/>december 2024
-img: assets/img/portal.png
+img: assets/img/games/portal.png
 importance: 3
 category: game projects
 ---

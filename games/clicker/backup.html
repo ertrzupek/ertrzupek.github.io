@@ -1,0 +1,653 @@
+<!--
+all textures/fonts from Minecraft
+some css from universal paperclips, commented as such
+emma trzupek
+friday, dec 16, 2022
+
+a lot is hidden under the .HIDETHISFORNOW tag, will hopefully be getting to it as my summative later :)
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="tooSmall">
+            too small!
+        </div>
+        <div id="page">
+            <div class="header">
+                dirt clicker
+            </div>
+            <div class="container">
+                <div class="column" id="MATERIALS">
+                    <div class="columnTitles" id="materialCT">
+                        materials
+                    </div>
+                    <!--0     1      2       3              4        5      6        7      8         9         10        11         12        -->
+                    <!--dirt, wood%, stone%, pretty stone*, plants*, gold%, copper*, iron%, redstone, diamond%, emerald*, obsidian*, netherite%-->
+                    <!-- % - used for upgrades-->
+                    <!-- * - not used until later stages of game-->
+                    <div class="left" id="dirt">
+                        <img src="textures/block/dirt.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="dirtButton">dirt</button>
+                        <p class="materialNum" id="dirtNum">0</p>
+                    </div>
+                    <div class="left" id="wood">
+                        <img src="textures/block/oak_log.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="woodButton">wood</button>
+                        <p class="materialNum" id="woodNum">0</p>
+                    </div>
+                    <div class="left" id="stone">
+                        <img src="textures/block/stone.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="stoneButton">stone</button>
+                        <p class="materialNum" id="stoneNum">0</p>
+                    </div>
+                    <div class="left" id="pstone">
+                        <img src="textures/block/diorite.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="pStoneButton">pretty</button>
+                        <p class="materialNum" id="pStoneNum">0</p>
+                    </div>
+                    <div class="left" id="plant">
+                        <img src="textures/block/grass.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="plantButton">plant</button>
+                        <p class="materialNum" id="plantNum">0</p>
+                    </div>
+                    <div class="left" id="gold">
+                        <img src="textures/block/gold_ore.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="goldButton">gold</button>
+                        <p class="materialNum" id="goldNum">0</p>
+                    </div>
+                    <div class="left" id="copper">
+                        <img src="textures/block/copper_ore.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="copperButton">copper</button>
+                        <p class="materialNum" id="copperNum">0</p>
+                    </div>
+                    <div class="left" id="iron">
+                        <img src="textures/block/iron_ore.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="ironButton">iron</button>
+                        <p class="materialNum" id="ironNum">0</p>
+                    </div>
+                    <div class="left" id="redstone">
+                        <img src="textures/block/redstone_ore.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="redstoneButton">redstone</button>
+                        <p class="materialNum" id="redstoneNum">0</p>
+                    </div>
+                    <div class="left" id="diamond">
+                        <img src="textures/block/diamond_ore.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="diamondButton">diamond</button>
+                        <p class="materialNum" id="diamondNum">0</p>
+                    </div>
+                    <div class="left" id="emerald">
+                        <img src="textures/block/emerald_ore.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="emeraldButton">emerald</button>
+                        <p class="materialNum" id="emeraldNum">0</p>
+                    </div>
+                    <div class="left" id="obsidian">
+                        <img src="textures/block/obsidian.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="obsidianButton">obsidian</button>
+                        <p class="materialNum" id="obsidianNum">0</p>
+                    </div>
+                    <div class="left" id="netherite">
+                        <img src="textures/block/ancient_debris_side.png" width="25%" class="materialImage">
+                        <button class="materialButton" id="netheriteButton">netherite</button>
+                        <p class="materialNum" id="netheriteNum">0</p>
+                    </div>
+                </div>
+     
+                <div class="column" id="SHOP">
+                    <div class="columnTitles" id="shopCT">
+                        shop
+                    </div>
+                    <!--coal, torch, craftingtable, furnace, blastfurnace, machine-->
+                    <!--these are the multipliers-->
+                    <div class="centerLeft" id="coal">
+                        <img src="textures/item/coal.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="coalButton">purchase</button>
+                        <p><br>&nbspx2 click power</p><br><p id="coalPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="torch">
+                        <img src="textures/block/torch.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="torchButton">purchase</button>
+                        <p><br>&nbspx3 click power</p><br><p id="torchPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="craftingTable">
+                        <img src="textures/block/crafting_table_top.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="craftingTableButton">purchase</button>
+                        <p><br>&nbspx4 click power</p><br><p id="craftingTablePrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="furnace">
+                        <img src="textures/block/furnace_front.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="furnaceButton">purchase</button>
+                        <p><br>&nbspx5 click power</p><br><p id="furnacePrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="blastFurnace">
+                        <img src="textures/block/blast_furnace_front.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="blastFurnaceButton">purchase</button>
+                        <p><br>&nbspx10 click power</p><br><p id="blastFurnacePrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="comparatorMachine">
+                        <img src="textures/item/comparator.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="comparatorMachineButton">purchase</button>
+                        <p><br>&nbspx20 click power</p><br><p id="comparatorMachinePrice">&nbsp&nbsp# redstone</p>
+                    </div>
+
+                    <!--stick, stone_pebble, gold_ingot, iron_ingot, diamond, netherite_ingot-->
+                    <!--shovel, axe, pickaxe, pickier_axe, hoe, minecart, chest, vault, apparatus, drill, dynamite, tnt, explosion (heh)-->
+                    <!--these are the autoclickers-->
+                    <!--sorted by appearance logic-->
+                    <div class="centerLeft" id="oneDirt">
+                        <img src="textures/block/dirt.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneDirtButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 dirt shovel</p><br><p id="oneDirtPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="oneWood">
+                        <img src="textures/block/oak_log.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneWoodButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 wood axe</p><br><p id="oneWoodPrice">&nbsp&nbsp# wood</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneStone">
+                        <img src="textures/block/stone.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 stone pickaxe</p><br><p id="oneStonePrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoDirt">
+                        <img src="textures/block/dirt.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoDirtButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 dirt shovel</p><br><p id="twoDirtPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="twoWood">
+                        <img src="textures/block/oak_log.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoWoodButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 wood axe</p><br><p id="twoWoodPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="twoStone">
+                        <img src="textures/block/stone.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 stone pickaxe</p><br><p id="twoStonePrice">&nbsp&nbsp# stone</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="onePStone">
+                        <img src="textures/block/diorite.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="onePStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 pretty stone pickier axe</p><br><p id="onePStonePrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoPStone">
+                        <img src="textures/block/diorite.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoPStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 pretty stone pickier axe</p><br><p id="twoPStonePrice">&nbsp&nbsp# stone</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="onePlant">
+                        <img src="textures/block/grass.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="onePlantButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 plant hoe</p><br><p id="onePlantPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoPlant">
+                        <img src="textures/block/grass.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoPlantButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 plant hoe</p><br><p id="twoPlantPrice">&nbsp&nbsp# stone</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneGold">
+                        <img src="textures/block/gold_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneGoldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 gold minecart</p><br><p id="oneGoldPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoGold">
+                        <img src="textures/block/gold_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoGoldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 gold minecart</p><br><p id="twoGoldPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeDirt">
+                        <img src="textures/block/dirt.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeDirtButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 dirt shovel</p><br><p id="threeDirtPrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="threeWood">
+                        <img src="textures/block/oak_log.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeWoodButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 wood axe</p><br><p id="threeWoodPrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="threeStone">
+                        <img src="textures/block/stone.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 stone pickaxe</p><br><p id="threeStonePrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="threePStone">
+                        <img src="textures/block/diorite.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threePStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 pretty stone pickier axe</p><br><p id="threePStonePrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="threePlant">
+                        <img src="textures/block/grass.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threePlantButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 plant hoe</p><br><p id="threePlantPrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="threeGold">
+                        <img src="textures/block/gold_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeGoldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 gold minecart</p><br><p id="threeGoldPrice">&nbsp&nbsp# gold</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneCopper">
+                        <img src="textures/block/copper_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneCopperButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 copper chest</p><br><p id="oneCopperPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoCopper">
+                        <img src="textures/block/copper_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoCopperButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 copper chest</p><br><p id="twoCopperPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeCopper">
+                        <img src="textures/block/copper_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeCopperButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 copper chest</p><br><p id="threeCopperPrice">&nbsp&nbsp# gold</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneIron">
+                        <img src="textures/block/iron_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneIronButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 iron vault</p><br><p id="oneIronPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoIron">
+                        <img src="textures/block/iron_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoIronButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 iron vault</p><br><p id="twoIronPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeIron">
+                        <img src="textures/block/iron_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeIronButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 iron vault</p><br><p id="threeIronPrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="fourDirt">
+                        <img src="textures/block/dirt.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourDirtButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 dirt shovel</p><br><p id="fourDirtPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fourWood">
+                        <img src="textures/block/oak_log.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourWoodButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 wood axe</p><br><p id="fourWoodPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fourStone">
+                        <img src="textures/block/stone.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 stone pickaxe</p><br><p id="fourStonePrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fourPStone">
+                        <img src="textures/block/diorite.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourPStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 pretty stone pickier axe</p><br><p id="fourPStonePrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fourPlant">
+                        <img src="textures/block/grass.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourPlantButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 plant hoe</p><br><p id="fourPlantPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fourGold">
+                        <img src="textures/block/gold_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourGoldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 gold minecart</p><br><p id="fourGoldPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fourCopper">
+                        <img src="textures/block/copper_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourCopperButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 copper chest</p><br><p id="fourCopperPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fourIron">
+                        <img src="textures/block/iron_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourIronButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 iron vault</p><br><p id="fourIronPrice">&nbsp&nbsp# iron</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneRedstone">
+                        <img src="textures/block/redstone_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneRedstoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 redstone apparatus</p><br><p id="oneRedstonePrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoRedstone">
+                        <img src="textures/block/redstone_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoRedstoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 redstone apparatus</p><br><p id="twoRedstonePrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeRedstone">
+                        <img src="textures/block/redstone_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeRedstoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 redstone apparatus</p><br><p id="threeRedstonePrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="fourRedstone">
+                        <img src="textures/block/redstone_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourRedstoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 redstone apparatus</p><br><p id="fourRedstonePrice">&nbsp&nbsp# iron</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneDiamond">
+                        <img src="textures/block/diamond_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneDiamondButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 diamond drill</p><br><p id="oneDiamondPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoDiamond">
+                        <img src="textures/block/diamond_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoDiamondButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 diamond drill</p><br><p id="twoDiamondPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeDiamond">
+                        <img src="textures/block/diamond_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeDiamondButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 diamond drill</p><br><p id="threeDiamondPrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="fourDiamond">
+                        <img src="textures/block/diamond_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourDiamondButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 diamond drill</p><br><p id="fourDiamondPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fiveDirt">
+                        <img src="textures/block/dirt.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveDirtButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 dirt shovel</p><br><p id="fiveDirtPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fiveWood">
+                        <img src="textures/block/oak_log.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveWoodButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 wood axe</p><br><p id="fiveWoodPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fiveStone">
+                        <img src="textures/block/stone.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 stone pickaxe</p><br><p id="fiveStonePrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fivePStone">
+                        <img src="textures/block/diorite.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fivePStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 pretty stone pickier axe</p><br><p id="fivePStonePrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fivePlant">
+                        <img src="textures/block/grass.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fivePlantButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 plant hoe</p><br><p id="fivePlantPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fiveGold">
+                        <img src="textures/block/gold_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveGoldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 gold minecart</p><br><p id="fiveGoldPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fiveCopper">
+                        <img src="textures/block/copper_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveCopperButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 copper chest</p><br><p id="fiveCopperPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fiveIron">
+                        <img src="textures/block/iron_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveIronButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 iron vault</p><br><p id="fiveIronPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fiveRedstone">
+                        <img src="textures/block/redstone_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveRedstoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 redstone apparatus</p><br><p id="fiveRedstonePrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="fiveDiamond">
+                        <img src="textures/block/diamond_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveDiamondButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 diamond drill</p><br><p id="fiveDiamondPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+
+                    
+                    <div class="centerLeft" id="oneEmerald">
+                        <img src="textures/block/emerald_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneEmeraldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 emerald dynamite</p><br><p id="oneEmeraldPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoEmerald">
+                        <img src="textures/block/emerald_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoEmeraldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 emerald dynamite</p><br><p id="twoEmeraldPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeEmerald">
+                        <img src="textures/block/emerald_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeEmeraldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 emerald dynamite</p><br><p id="threeEmeraldPrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="fourEmerald">
+                        <img src="textures/block/emerald_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourEmeraldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 emerald dynamite</p><br><p id="fourEmeraldPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fiveEmerald">
+                        <img src="textures/block/emerald_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveEmeraldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 emerald dynamite</p><br><p id="fiveEmeraldPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneObsidian">
+                        <img src="textures/block/obsidian.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneObsidianButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 obsidian tnt</p><br><p id="oneObsidianPrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoObsidian">
+                        <img src="textures/block/obsidian.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoObsidianButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 obsidian tnt</p><br><p id="twoObsidianPrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeObsidian">
+                        <img src="textures/block/obsidian.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeObsidianButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 obsidian tnt</p><br><p id="threeObsidianPrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="fourObsidian">
+                        <img src="textures/block/obsidian.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourObsidianButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 obsidian tnt</p><br><p id="fourObsidianPrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fiveObsidian">
+                        <img src="textures/block/obsidian.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveObsidianButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 obsidian tnt</p><br><p id="fiveObsidianPrice">&nbsp&nbsp# diamond</p>
+                    </div>
+
+
+                    <div class="centerLeft" id="oneNetherite">
+                        <img src="textures/block/ancient_debris_side.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stick.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="oneNetheriteButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 1 netherite explosion</p><br><p id="oneNetheritePrice">&nbsp&nbsp# wood</p>
+                    </div>
+                    <div class="centerLeft" id="twoNetherite">
+                        <img src="textures/block/ancient_debris_side.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/stone_pebble.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="twoNetheriteButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 2 netherite explosion</p><br><p id="twoNetheritePrice">&nbsp&nbsp# stone</p>
+                    </div>
+                    <div class="centerLeft" id="threeNetherite">
+                        <img src="textures/block/ancient_debris_side.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/gold_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="threeNetheriteButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 3 netherite explosion</p><br><p id="threeNetheritePrice">&nbsp&nbsp# gold</p>
+                    </div>
+                    <div class="centerLeft" id="fourNetherite">
+                        <img src="textures/block/ancient_debris_side.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/iron_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fourNetheriteButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 4 netherite explosion</p><br><p id="fourNetheritePrice">&nbsp&nbsp# iron</p>
+                    </div>
+                    <div class="centerLeft" id="fiveNetherite">
+                        <img src="textures/block/ancient_debris_side.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/diamond.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="fiveNetheriteButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 5 netherite explosion</p><br><p id="fiveNetheritePrice">&nbsp&nbsp# diamond</p>
+                    </div>
+                    <div class="centerLeft" id="sixDirt">
+                        <img src="textures/block/dirt.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixDirtButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 dirt shovel</p><br><p id="sixDirtPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixWood">
+                        <img src="textures/block/oak_log.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixWoodButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 wood axe</p><br><p id="sixWoodPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixStone">
+                        <img src="textures/block/stone.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 stone pickaxe</p><br><p id="sixStonePrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixPStone">
+                        <img src="textures/block/diorite.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixPStoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 pretty stone pickier axe</p><br><p id="sixPStonePrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixPlant">
+                        <img src="textures/block/grass.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixPlantButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 plant hoe</p><br><p id="sixPlantPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixGold">
+                        <img src="textures/block/gold_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixGoldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 gold minecart</p><br><p id="sixGoldPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixCopper">
+                        <img src="textures/block/copper_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixCopperButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 copper chest</p><br><p id="sixCopperPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixIron">
+                        <img src="textures/block/iron_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixIronButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 iron vault</p><br><p id="sixIronPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixRedstone">
+                        <img src="textures/block/redstone_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixRedstoneButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 redstone apparatus</p><br><p id="sixRedstonePrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixDiamond">
+                        <img src="textures/block/diamond_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixDiamondButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 diamond drill</p><br><p id="sixDiamondPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixEmerald">
+                        <img src="textures/block/emerald_ore.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixEmeraldButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 emerald dynamite</p><br><p id="sixEmeraldPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixObsidian">
+                        <img src="textures/block/obsidian.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixObsidianButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 obsidian tnt</p><br><p id="sixObsidianPrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                    <div class="centerLeft" id="sixNetherite">
+                        <img src="textures/block/ancient_debris_side.png" width="25%" class="upgradeImage">
+                        <img src="textures/item/netherite_ingot.png" width="25%" class="upgradeImage">
+                        <button class="upgradeButton" id="sixNetheriteButton">purchase</button>
+                        <p><br>&nbsp&nbsptier 6 netherite explosion</p><br><p id="sixNetheritePrice">&nbsp&nbsp# netherite</p>
+                    </div>
+                </div>
+
+                <div class="column" id="FOOD">
+                    <div class="columnTitles" id="foodCT">
+                        food
+                    </div>
+                    <div class="centerRight">
+                        
+                    </div>
+                </div>
+                <div class="column" id="BUILDS">
+                    <div class="columnTitles" id="buildCT">
+                        buildings
+                    </div>
+                    <div class="right">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

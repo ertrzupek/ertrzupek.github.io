@@ -4,7 +4,7 @@ title: USC Esports
 description: <u><b>programming/design lead</b></u><br/>the official site for USC Esports<br/>november 2024 - ongoing
 img: assets/img/esports/esports-logo.png
 importance: 1
-category: published work
+category: web sites / games
 ---
 
 you can find this project <a href="https://www.usctrojanesports.com/">here!</a>

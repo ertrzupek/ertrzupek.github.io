@@ -3,8 +3,8 @@ layout: page
 title: Crossy Road
 description: <u><b>programming lead</b></u><br/>endless runner<br/>november - december 2024
 img: assets/img/cr/cr-heading.png
-importance: 1
-category: published work
+importance: 2
+category: web sites / games
 ---
 
 this game was designed by myself and Natalie Chang (CS Games '26, art/audio lead).<br/>

@@ -5,7 +5,7 @@ permalink: /projects/
 description: a collection of my university projects & published work
 nav: true
 nav_order: 1
-display_categories: [game projects, published work, c++ games (itp 380), physical games (ctin 488)]
+display_categories: [game projects, web sites / games, c++ games (itp 380), physical games (ctin 488)]
 horizontal: false
 ---
 
