@@ -6,7 +6,7 @@ subtitle: computer science & game development @ USC
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: PEAK-PHOTO.jpg
   image_circular: false # crops the image to make it circular
   more_info:
 

@@ -4,7 +4,7 @@ title: Letter Carrier
 description: <u><b>html / javascript</b></u><br/>test top down web game<br/>march 2023 (unfinished)
 img: assets/img/games/letters.gif
 importance: 4
-category: web sites / games
+category:
 ---
 
 this was a project I started as an assignment for my web development class in high school. it's not anywhere near complete, but I still think it's pretty cool :)

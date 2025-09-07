@@ -4,7 +4,7 @@ title: Dirt Clicker
 description: <u><b>html / javascript</b></u><br/>a weekend project from high school<br/>march 2023
 img: assets/img/games/clicker.png
 importance: 3
-category: web sites / games
+category:
 ---
 
 I made this as a universal paperclips/cookie clicker knock-off in my game design class in high school. it takes about 6 minutes to complete. it's kinda fun to see the numbers go zoom :P

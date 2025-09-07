@@ -61,12 +61,12 @@ horizontal: false
   </div>
   <div class="row">
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/usc-1.jpg" title="usc globe" %}
-        <div class="caption">usc globe</div>
+        {% include figure.liquid loading="eager" path="assets/img/prof-pic.jpg" title="card art" %}
+        <div class="caption">card art</div>
     </div>
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/hollywood.jpg" title="hollywood" %}
-        <div class="caption">the art of living & the hollywood sign</div>
+        <div class="caption">the art of living</div>
     </div>
   </div>
   <div class="row">
