@@ -3,9 +3,9 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - ertrzupek/hades-ii-materials
-  - ertrzupek/hades-weapon-tracker
-  - ertrzupek/hades-counter
-  - ertrzupek/hades-currency-calculator
-  - ertrzupek/ahis-373
-  - ertrzupek/music-player
+  - ertrzupek/hades-ii-materials/hades-ii-materials-tracker-index.vercel.app
+  - ertrzupek/hades-weapon-tracker/hades-weapon-tracker.vercel.app
+  - ertrzupek/hades-counter/hades-counter-client.vercel.app
+  - ertrzupek/hades-currency-calculator/hades-currency-calculator.vercel.app
+  - ertrzupek/ahis-373/ahis-373.vercel.app
+  - ertrzupek/music-player/music-player-six-olive.vercel.app

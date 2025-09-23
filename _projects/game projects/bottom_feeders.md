@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Bottom Feeders
-description: <u><b>producer & programming lead</b></u><br/>multiplayer platforming party game<br/>january - may 2025
+description: <u><b>Producer & Programming Lead</b></u><br/>Multiplayer platforming party game<br/>January - May 2025
 img: assets/img/bf/icon.png
 importance: 2
-category: game projects
+category: Game Projects
 ---
 
 Ultimate Chicken Horse mechanics meet Titanfall 2 movement.<br>

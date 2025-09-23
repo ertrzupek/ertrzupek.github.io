@@ -4,10 +4,10 @@ title: Mario
 description: AABBs, level scrolling, basic sounds and animations
 img:
 importance: 4
-category: c++ games (itp 380)
+category: C++ Games (ITP 380)
 ---
 
-<a href="../../games/mario.html" target="_blank">play fullscreen here</a>
+<a href="../../games/mario.html" target="_blank">PLAY FULLSCREEN HERE</a>
 
-click the embed & use a, d, and space to play!
+Click the embed & use A, D, and space to play!
 <embed type="text/html" src="../../games/mario.html"   width="80%" height="500">

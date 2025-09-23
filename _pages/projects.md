@@ -5,7 +5,7 @@ permalink: /projects/
 description: a collection of my university projects & published work
 nav: true
 nav_order: 1
-display_categories: [game projects, web sites / games, c++ games (itp 380), physical games (ctin 488)]
+display_categories: [Game Projects, Websites, C++ Games (ITP 380), Physical Games (CTIN 488)]
 horizontal: false
 ---
 
@@ -19,7 +19,7 @@ horizontal: false
   </a>
   {% if category == "c++ games (itp 380)" %}
     <div>
-      These are games made using <b>C++</b> and <b>SDL</b>, each taking about 7 - 9 hours.<br/>
+      These are games made using <b>C++</b> and <b>SDL</b>, each taking about 4 - 6 hours.<br/>
       They focus on a few core concepts that then build on each other for the following projects.<br/>
       <br/>
     </div>

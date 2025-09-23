@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Zelda
-description: tile maps, A* pathfinding
+description: Tile maps, A* pathfinding
 img:
 importance: 6
-category: c++ games (itp 380)
+category: C++ Games (ITP 380)
 ---
 
-<a href="../../games/zelda.html" target="_blank">play fullscreen here</a>
+<a href="../../games/zelda.html" target="_blank">PLAY FULLSCREEN HERE</a>
 
-click the embed & use wasd to play!
+Click the embed & use WASD to play!
 <embed type="text/html" src="../../games/zelda.html"   width="60%" height="500">

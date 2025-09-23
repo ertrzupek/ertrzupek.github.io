@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Pac-Man
-description: basic enemy AI and state machines
+description: Basic enemy AI and state machines
 img:
 importance: 5
-category: c++ games (itp 380)
+category: C++ Games (ITP 380)
 ---
 
-<a href="../../games/pacman.html" target="_blank">play fullscreen here</a>
+<a href="../../games/pacman.html" target="_blank">PLAY FULLSCREEN HERE</a>
 
-click the embed & use wasd to play!
+Click the embed & use WASD to play!
 <embed type="text/html" src="../../games/pacman.html"   width="60%" height="550">

@@ -1,10 +1,10 @@
 ---
 layout: page
 title: Masterworks of Horror
-description: <u><b>engineer & tech artist</b></u><br/>advanced games project<br/>summer 2025 - spring 2026
+description: <u><b>Engineer & Tech Artist</b></u><br/>Advanced Games Project<br/>Summer 2025 - Spring 2026
 img:
 importance: 4
-category: game projects
+category: Game Projects
 ---
 
-on its way...
+Currently in progress!

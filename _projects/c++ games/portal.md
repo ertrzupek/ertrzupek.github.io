@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Portal
-description: <u><b>tac 380 final project</b></u><br/>c++ game built without an engine<br/>december 2024
+description: <u><b>ITP 380 Final Project</b></u><br/>C++ game built without an engine<br/>December 2024
 img: assets/img/games/portal.png
 importance: 3
-category: game projects
+category: Game Projects
 ---
 
-<a href="../../games/portal.html" target="_blank">play fullscreen here</a>
+<a href="../../games/portal.html" target="_blank">PLAY FULLSCREEN HERE</a>
 
-click the embed to play!
+Click the embed to play!
 <embed type="text/html" src="../../games/portal.html"   width="120%" height="800" style="transform: scale(0.85)">

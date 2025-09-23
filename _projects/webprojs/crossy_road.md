@@ -1,26 +1,26 @@
 ---
 layout: page
-title: Crossy Road
-description: <u><b>programming lead</b></u><br/>endless runner<br/>november - december 2024
+title: USC Crossy Road
+description: <u><b>Programming Lead</b></u><br/>Endless Runner<br/>November - December 2024
 img: assets/img/cr/cr-heading.png
-importance: 2
-category: web sites / games
+importance: 6
+category: Game Projects
 ---
 
-this game was designed by myself and Natalie Chang (CS Games '26, art/audio lead).<br/>
-it was created with the support of the Annenberg Media team, as part of their new initiative to generate better viewer engagement through simple quick-play games.
+This game was designed by myself and Natalie Chang (CS Games '26, art/audio lead).<br/>
+It was created with the support of the Annenberg Media team, as part of their new initiative to generate better viewer engagement through simple quick-play games.
 
-you can play it <a href="https://www.uscannenbergmedia.com/games/">here</a>, on the annenberg games site.
+You can play it <a href="https://www.uscannenbergmedia.com/games/">here</a>, on the Annenberg Games website.
 
-<b>my responsibilities:</b>
+<b>My Responsibilities:</b>
 
-1. taught myself the Godot workflow (first time using any game engine professionally)
-2. designed and implemented a <b>random terrain generator</b> that ensures every playthrough is different
-3. learned the basics of reloading scenes, saving data, and using <b>autoloads</b>
-4. created a <b>basic GUI</b> for game start, game over, and scoring
-5. ran small internal and external <b>playtests</b> to confirm completion of project milestones
-6. maintained <b>constant communication</b> between other member and Annenberg Media
-7. cleanly managed <b>git collaboration</b> between members
+1. Taught myself the Godot workflow (first time using any game engine professionally)
+2. Designed and implemented a <b>random terrain generator</b> that ensures every playthrough is different
+3. Learned the basics of reloading scenes, saving data, and using <b>autoloads</b>
+4. Created a <b>basic GUI</b> for game start, game over, and scoring
+5. Ran small internal and external <b>playtests</b> to confirm completion of project milestones
+6. Maintained <b>constant communication</b> between other member and Annenberg Media
+7. Cleanly managed <b>Git collaboration</b> between members
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

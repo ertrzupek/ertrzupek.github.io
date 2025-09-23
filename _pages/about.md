@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: computer science & game development @ USC
+subtitle: Computer Science & Game Development @ USC
 
 profile:
   align: right

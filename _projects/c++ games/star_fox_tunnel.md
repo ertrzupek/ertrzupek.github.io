@@ -1,13 +1,13 @@
 ---
 layout: page
 title: Star Fox Tunnel
-description: basic 3D graphics, matrices, object vs world space
+description: Basic 3D graphics, matrices, object vs world space
 img:
 importance: 7
-category: c++ games (itp 380)
+category: C++ Games (ITP 380)
 ---
 
-<a href="../../games/star_fox_tunnel.html" target="_blank">play fullscreen here</a>
+<a href="../../games/star_fox_tunnel.html" target="_blank">PLAY FULLSCREEN HERE</a>
 
-click the embed & use wasd, q, and space to play!
+Click the embed & use WASD, Q, and space to play!
 <embed type="text/html" src="../../games/star_fox_tunnel.html"   width="120%" height="800" style="transform: scale(0.85)">

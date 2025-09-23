@@ -1,25 +1,25 @@
 ---
 layout: page
 title: Faux Real
-description: <u><b>playtest & UX lead</b></u><br/>designed from die-rolled constraints<br/>february - march 2024
+description: <u><b>Playtest & UX Lead</b></u><br/>Designed from die-rolled constraints<br/>February - March 2024
 img: assets/img/fr/fr-heading.png
 importance: 2
-category: physical games (ctin 488)
+category: Physical Games (CTIN 488)
 ---
 
-<b>game basics & my responsibilities:</b>
+<b>My Responsibilities:</b>
 
-1. designed game around the following four constraints
-   1. childhood memories
-   2. unilateral (3v1) player interaction
-   3. press your luck (major mechanic)
-   4. some sort of race aspect
-2. created the rules of the game, focusing on clarity and ease of understanding
-3. took detailed notes during each playtest for immediate player reactions, issues that arose, and possible solutions
-4. carefully created a playtest survey to assess the game's success
-5. compiled playtest survey results and presented findings to the group for next steps
-6. maintained detailed design journal to summarize game progress through the development cycle
-7. designed clone question cards to be on theme with game & came up with unique and interesting prompts for each
+1. Designed game around the following four constraints
+   1. Childhood memories
+   2. Unilateral (3v1) player interaction
+   3. Press your luck (major mechanic)
+   4. Some sort of race aspect
+2. Created the rules of the game, focusing on clarity and ease of understanding
+3. Took detailed notes during each playtest for immediate player reactions, issues that arose, and possible solutions
+4. Carefully created a playtest survey to assess the game's success
+5. Compiled playtest survey results and presented findings to the group for next steps
+6. Maintained detailed design journal to summarize game progress through the development cycle
+7. Designed clone question cards to be on theme with game & came up with unique and interesting prompts for each
 
 <br/>
 <div class="caption">our group presenting to the class, among 6 other teams out of 17 that were chosen to share our work</div>
