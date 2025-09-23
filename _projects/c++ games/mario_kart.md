@@ -2,7 +2,7 @@
 layout: page
 title: Mario Kart
 description: Vehicle physics, spring camera, height map, cross product
-img:
+img: assets/img/games/mario_kart.png
 importance: 8
 category: C++ Games (ITP 380)
 ---

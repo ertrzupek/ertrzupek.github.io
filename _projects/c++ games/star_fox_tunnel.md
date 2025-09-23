@@ -2,7 +2,7 @@
 layout: page
 title: Star Fox Tunnel
 description: Basic 3D graphics, matrices, object vs world space
-img:
+img: assets/img/games/star_fox_tunnel.png
 importance: 7
 category: C++ Games (ITP 380)
 ---

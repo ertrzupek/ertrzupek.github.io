@@ -2,7 +2,7 @@
 layout: page
 title: Pac-Man
 description: Basic enemy AI and state machines
-img:
+img: assets/img/games/pacman.png
 importance: 5
 category: C++ Games (ITP 380)
 ---

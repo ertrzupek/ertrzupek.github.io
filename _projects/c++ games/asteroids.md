@@ -2,7 +2,7 @@
 layout: page
 title: Asteroids
 description: Actors and components, basic vectors
-img:
+img: assets/img/games/asteroids.png
 importance: 2
 category: C++ Games (ITP 380)
 ---

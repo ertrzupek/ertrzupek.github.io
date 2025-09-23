@@ -2,7 +2,7 @@
 layout: page
 title: Zelda
 description: Tile maps, A* pathfinding
-img:
+img: assets/img/games/zelda.png
 importance: 6
 category: C++ Games (ITP 380)
 ---

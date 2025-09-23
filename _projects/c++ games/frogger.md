@@ -2,7 +2,7 @@
 layout: page
 title: Frogger
 description: Basic collision, leading edge movement, vector dot product
-img:
+img: assets/img/games/frogger.png
 importance: 3
 category: C++ Games (ITP 380)
 ---

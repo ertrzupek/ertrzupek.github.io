@@ -2,7 +2,7 @@
 layout: page
 title: Pong
 description: Basic SDL window setup and game loop
-img:
+img: assets/img/games/pong.png
 importance: 1
 category: C++ Games (ITP 380)
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Mario
 description: AABBs, level scrolling, basic sounds and animations
-img:
+img: assets/img/games/mario.png
 importance: 4
 category: C++ Games (ITP 380)
 ---

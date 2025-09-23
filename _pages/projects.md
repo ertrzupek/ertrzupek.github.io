@@ -17,7 +17,7 @@ horizontal: false
   <a id="{{ category }}" href=".#{{ category }}">
     <h2 class="category">{{ category }}</h2>
   </a>
-  {% if category == "c++ games (itp 380)" %}
+  {% if category == "C++ Games (ITP 380)" %}
     <div>
       These are games made using <b>C++</b> and <b>SDL</b>, each taking about 4 - 6 hours.<br/>
       They focus on a few core concepts that then build on each other for the following projects.<br/>
