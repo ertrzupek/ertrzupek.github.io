@@ -3,7 +3,7 @@ layout: page
 title: USC Crossy Road
 description: <u><b>Programming Lead</b></u><br/>Endless Runner<br/>November - December 2024
 img: assets/img/cr/cr-heading.png
-importance: 6
+importance: 7
 category: Game Projects
 ---
 

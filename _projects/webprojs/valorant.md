@@ -7,6 +7,6 @@ importance: 2
 category: Websites
 ---
 
-Currently in progress! 
+Currently in progress!
 
 Repo can be found here: [https://github.com/USC-ESPORTS/usc-valorant-stats](https://github.com/USC-ESPORTS/usc-valorant-stats)
