@@ -3,7 +3,7 @@ layout: page
 title: Portal
 description: <u><b>ITP 380 Final Project</b></u><br/>C++ game built without an engine<br/>December 2024
 img: assets/img/games/portal.png
-importance: 3
+importance: 6
 category: Game Projects
 ---
 

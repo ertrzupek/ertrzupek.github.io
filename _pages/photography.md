@@ -5,7 +5,7 @@ permalink: /photography/
 description: my collection of professional work, class projects, and personal photos
 nav: true
 nav_order: 2
-display_categories: [professional work, class projects, just for funsies]
+display_categories: [Professional Work, Class Projects, Just For Funsies]
 horizontal: false
 ---
 

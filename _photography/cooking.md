@@ -4,7 +4,7 @@ title: Just Another Late Night Chef
 description: my present moment<br/>art 150
 img: assets/img/cooking/cooking-2-2.jpg
 importance: 1
-category: class projects
+category: Class Projects
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/cooking/cooking-install.jpg" title="prj1-install"%}

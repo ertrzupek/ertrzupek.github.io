@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Conquest 2024
-description: Social Media<br/>USC Esports
+title: USC Esports Conquest 2024
+description:
 img: assets/img/conquest24/conquest24-2.jpg
 importance: 2
-category: professional work
+category: Professional Work
 ---
 
 <div class="row">

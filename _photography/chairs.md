@@ -4,7 +4,7 @@ title: Creature Comforts
 description: staging still life<br/>art 150
 img: assets/img/chairs/chairs-heading.jpg
 importance: 3
-category: class projects
+category: Class Projects
 ---
 
 {% include figure.liquid loading="eager" path="assets/img/chairs/chairs-install.jpg" title="prj3-install"%}

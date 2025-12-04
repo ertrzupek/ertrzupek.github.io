@@ -4,7 +4,7 @@ title: USC Crossy Road
 description: <u><b>Programming Lead</b></u><br/>Endless Runner<br/>November - December 2024
 img: assets/img/cr/cr-heading.png
 importance: 7
-category: Game Projects
+category:
 ---
 
 This game was designed by myself and Natalie Chang (CS Games '26, art/audio lead).<br/>
