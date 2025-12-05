@@ -54,7 +54,7 @@ Earn 5 points to win your freedom, or face permanent de-resolution.
         </center>
         - The player is able to use right mouse to deflect<br/>
         - The top right corner of the UI shows the recharge time<br/>
-        - The video below shows a lengthed deflection time for testing/showcase purposes (normally 0.25 seconds)
+        - The video below shows a lengthened deflection time for testing/showcase purposes (normally 0.25 seconds)
     </div>
 </div>
 <div class="row">
@@ -69,9 +69,9 @@ Earn 5 points to win your freedom, or face permanent de-resolution.
             <b>Breaking the Floor</b><br/>
        </center>
         - Players are able to break the floor (given their disc has enough speed)<br/>
-        - Discs bounce up to twice then hone back to the thrower<br/>
+        - Discs bounce twice then hone back to the thrower<br/>
         - A possible strategy is to try and break the 4 floor tiles your opponent stands on to spawn trap them<br/>
-        - Be careful not to lose your discs to the void!
+        - Be careful not to lose your discs to the void...
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/discwars/break.gif" title="discwars" %}
