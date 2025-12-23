@@ -41,10 +41,20 @@ horizontal: false
         <div class="caption">strobe practice</div>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/moon-1.jpg" title="moon 1" %}
+        {% include figure.liquid loading="eager" path="assets/img/moon-1.jpg" title="lunar electrics" %}
         <div class="caption">lunar electrics</div>
         {% include figure.liquid loading="eager" path="assets/img/emergency.jpg" title="emergency" %}
         <div class="caption">emergency</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/tssopeak.jpg" title="jayden" %}
+        <div class="caption">ts so peak</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/ducks.jpg" title="ducks" %}
+        <div class="caption">ducks!</div>
     </div>
   </div>
   <div class="row">
