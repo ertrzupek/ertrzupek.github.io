@@ -131,7 +131,10 @@
 } /* Literal.String.Heredoc */
 .highlight .si {
   color: #d01040;
-} /* Literal.String.Interpol */ /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */
+} /* Literal.String.Interpol */
+.highlight .sx {
+  color: #d01040;
+} /* Literal.String.Other */ /* Literal.String.Regex */ /* Literal.String.Single */ /* Literal.String.Symbol */
 .highlight .bp {
   color: #999999;
 } /* Name.Builtin.Pseudo */
