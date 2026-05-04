@@ -13,16 +13,12 @@
 
 <div class="repo p-2 text-center">
   <a href="https://{{repo_url[2]}}">{{ repo_url[2] }}</a>
-  <a href="https://github.com/{{ repo_url[0] }}/{{repo_url[1]}}">
-    <img
-      class="repo-img-light w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-    <img
-      class="repo-img-dark w-100"
-      alt="{{ include.repository }}"
-      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
-    >
-  </a>
+  <img
+    src="/assets/img/repos/{{repo_url[1]}}.png"
+    width="100%"
+    height="auto"
+    alt="{{repo_url[1]}}"
+    loading="eager"
+    onerror="this.onerror=null; $('.responsive-img-srcset').remove();"
+  >
 </div>

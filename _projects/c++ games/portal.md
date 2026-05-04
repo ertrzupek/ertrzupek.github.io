@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Portal
-description: <u><b>ITP 380 Final Project</b></u><br/>C++ game built without an engine<br/>December 2024
+description: <u><b>Solo Project</b></u><br/>Portal clone built in a custom engine<br/>C++, SDL<br/>December 2024
 img: assets/img/games/portal.png
-importance: 6
+importance: 8
 category: Game Projects
 ---
 

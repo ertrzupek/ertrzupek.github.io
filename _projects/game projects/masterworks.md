@@ -1,24 +1,83 @@
 ---
 layout: page
 title: Masterworks
-description: <u><b>Unity Engineer & Tech Artist</b></u><br/>Advanced Games Project<br/>May 2025 - May 2026
-img: assets/img/moh/titleshort.gif
+description: <u><b>Technical Art Lead & Engineer</b></u><br/>Multiplayer real-time card game<br/>Unity, ShaderGraph, ParticleSystem<br/>May 2025 - May 2026
+img: assets/img/moh/combinedtitle.gif
 importance: 2
 category: Game Projects
 ---
 
-I currently work as a technical artist and engineer on <b>Masterworks of Horror</b>, one of the Advanced Game Projects sponsored by USC Games. I collaborate very closely with the engineering and art teams to create impactful visual effects to enhance the player's experience.
+While I have no formal background in tech art or VFX, I'm very interested in designing shaders and learning more about the VFX pipeline, which led me here :) I collaborated very closely with the engineering and art teams to create impactful visual effects to enhance the player's experience.
 
-While I have no formal background in tech art or VFX, I'm very interested in designing shaders and learning more about the VFX pipeline, which led me here :)
+My Responsibilities:
 
-Key Skills Learned:
+1. Led a team of 2 other tech artists, managing tasks and planning sprints to complete expected scope (and beyond!) in a timely manner
+2. Taught myself Unity's ShaderGraph and VFXGraph systems
+3. Converted complex HLSL code to ShaderGraphs
+4. Designed highly customizable parallax and holographic shaders for our card display system
+5. Created dynamic VFX with plenty of designer variables to tweak for user experience
+6. Optimized VFX for mobile viewing
+7. Kitbashed VFX to lighten the workload of our artists
 
-- Self-taught Unity's ShaderGraph and VFXGraph systems
-- Converting complex HLSL code to ShaderGraphs
-- Designing highly customizable parallax and holographic shaders for our card display system
-- Optimizing VFX for mobile viewing
-- Kitbashing VFX to lighten the workload of our artists
-
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/moh/corrupted.gif" title="moh" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>Corrupted Shader</b><br/>
+       </center>
+        - Effect for indicating when a card is corrupted<br/>
+        - UV distort for glitch effect<br/>
+        - As card moves down board, grows in intensity/visibility<br/>
+        - Voronoi for "flashing" effect to catch the player's eye
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>Awaken Shader</b><br/>
+       </center>
+        - In-hand shader to indicate a card has awakened<br/>
+        - Double noise pass to create flame effect<br/>
+        - Gradient fade out  to avoid hard edges<br/>
+        - Easily customizable shape, color, and intensity
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/moh/awaken.gif" title="moh" %}
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/moh/timer.gif" title="moh" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>Movement Timer Shader</b><br/>
+       </center>
+        - Visual indication for time until move, built into the on-board card border<br/>
+        - Flashes if moving means a battle, to draw attention to that area<br/>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>Inspiration Bar Shader</b><br/>
+       </center>
+        - Indicates how much inspiration (mana) the player has
+        - Red indicates how much playing a card would cost
+        - Triple mask to section off the three colors
+        - Fade-out for a dynamic, flame-like edge
+        - Designer vars for noise speed, colors, etc
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/moh/inspirationbar.gif" title="moh" %}
+    </div>
+</div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -26,7 +85,7 @@ Key Skills Learned:
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <b>Parallax Effect</b><br/>
+            <b>Parallax Shader</b><br/>
        </center>
         - Implemented a dynamic three-layer parallax effect<br/>
         - Used in both an unlit and lit shader depending on card rarity<br/>
@@ -37,7 +96,7 @@ Key Skills Learned:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <b>Parallax Effect - Development</b><br/>
+            <b>Parallax Shader - Development</b><br/>
        </center>
         - Started with a simple two layer effect<br/>
         - Worked to fix side runoff for a cleaner look<br/>
@@ -54,7 +113,7 @@ Key Skills Learned:
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <b>Holographic Effect</b><br/>
+            <b>Holographic Shader</b><br/>
        </center>
         - Designed a simple lit holographic shader<br/>
         - Currently uses a basic voronoi pattern but easily can be customized<br/>
@@ -65,7 +124,7 @@ Key Skills Learned:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <b>Holo Effect - First Tries</b><br/>
+            <b>Holographic Shader - First Attempts</b><br/>
        </center>
         - Started with learning different types of holographic effects<br/>
         - Used a simple wave pattern at first before discovering voronoi<br/>
@@ -86,7 +145,7 @@ Key Skills Learned:
             <b>Crosshatch Shader</b><br/>
        </center>
         - Recreated <a href="https://kylehalladay.com/blog/tutorial/2017/02/21/Pencil-Sketch-Effect.html">this</a> sketch effect from Kyle Halladay's hlsl shader as a customizable shadergraph<br/>
-        - Added a 7th partition for a full white section to allow for more detail
+        - Added a 7th partition for a full white section to allow for more detail<br/>
         - Allows designers to pick colors & theming as they wish
     </div>
 </div>
@@ -94,20 +153,31 @@ Key Skills Learned:
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
-            <b>Burn Effect</b><br/>
+            <b>Midnight Hour Effect</b><br/>
        </center>
-        - Kitbashed a simple dissolve shader into the default holographic/parallax shader<br/>
-        - Added custom smoke and ember particles through VFXGraph<br/>
+        - Combined clock asset with kitbashed sparkles<br/>
+        - Animated clock hand to midnight<br/>
+        - ParticleSystem VFX
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/moh/vfxburn.gif" title="moh" %}
+        {% include figure.liquid loading="eager" path="assets/img/moh/midnighthour.gif" title="moh" %}
     </div>
 </div>
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/moh/vfxchain.gif" title="moh" %}
+        {% include figure.liquid loading="eager" path="assets/img/moh/vfxburn.gif" title="moh" %}
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <center>
+            <b>Burn Effect</b><br/>
+       </center>
+        - Kitbashed a simple dissolve shader into the default holographic/parallax shader<br/>
+        - Added custom smoke and ember particles through VFXGraph<br/>
+    </div>
+</div>
+<hr>
+<div class="row">
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>Chain Effect</b><br/>
@@ -117,9 +187,15 @@ Key Skills Learned:
         - Added a fade-in effect to the shader's emission<br/>
         - Implemented particles and a simple animation to the meshes
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/moh/vfxchain.gif" title="moh" %}
+    </div>
 </div>
 <hr>
 <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/moh/vfxbubble.gif" title="moh" %}
+    </div>
     <div class="col-sm mt-3 mt-md-0">
         <center>
             <b>Bubbling Ink Effect</b><br/>
@@ -127,8 +203,5 @@ Key Skills Learned:
         - Followed <a href="https://www.youtube.com/watch?v=RnG8zez9wZg">this</a> tutorial to create a generic bubble/ink effect<br/>
         - Kitbashed the various smoke and bubble particles used<br/>
         - Shortened and optimized the effect for mobile use
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/moh/vfxbubble.gif" title="moh" %}
     </div>
 </div>

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DISC WARS
-description: <u><b>C++, Unreal Multiplayer, GAS</b></u><br/>Epic Online Services<br/>December 2025
+description: <u><b>Solo Project</b></u><br/>Multiplayer Tron Legacy fan game<br/>Unreal, C++, EOS<br/>December 2025
 img: assets/img/discwars/throwtitle.gif
 importance: 2
 category: Game Projects
@@ -9,11 +9,9 @@ category: Game Projects
 
 DISC WARS is my final project for the Unreal Gameplay class I took in Fall 2025!
 
-Modeled after the "games" scene of Disney's <i>Tron: Legacy</i>, you play as a program of the Grid.
+Modeled after the "games" scene of Disney's <i>Tron: Legacy</i>, you play as a program of the Grid. Earn 5 points to win your freedom, or face permanent de-resolution.
 
-Earn 5 points to win your freedom, or face permanent de-resolution.
-
-<center><b>Playthrough video (with audio and such) coming soon!</b></center><br/>
+<center><b>Playthrough video coming soon!</b></center><br/>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

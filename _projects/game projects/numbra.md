@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Numbra
-description: <u><b>C++, Unreal Blueprints</b></u><br/>Made for the Unreal MegaJam<br/>October 2025
+description: <u><b>Producer & Engineer</b></u><br/>Made for the Unreal MegaJam<br/>Unreal, C++, Blueprints<br/>October 2025
 img: assets/img/numbra/numbra4.png
-importance: 5
+importance: 7
 category: Game Projects
 ---
 

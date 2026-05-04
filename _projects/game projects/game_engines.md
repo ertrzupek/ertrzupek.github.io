@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Engine Design
-description: <u><b>C++, HLSL, DirectX</b></u><br/>Building a game engine from scratch<br/>January - May 2025
+description: <u><b>Solo Project</b></u><br/>Building a game engine from scratch<br/>C++, HLSL, DirectX<br/>January - May 2025
 img: assets/img/engines/animation.gif
 importance: 1
 category: Game Projects
@@ -9,11 +9,11 @@ category: Game Projects
 
 Key Skills Learned:
 
-- Advanced graphics debugging though Visual Studio
-- Writing complex HLSL shaders
-- Profiling multithreaded jobs to analyze & improve performance
-- Designing rigorous unit tests
-- Applying high-level vector math
+1. Advanced graphics debugging though Visual Studio
+2. Writing complex HLSL shaders
+3. Profiling multithreaded jobs to analyze & improve performance
+4. Designing rigorous unit tests
+5. Applying high-level vector math
 <hr>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">

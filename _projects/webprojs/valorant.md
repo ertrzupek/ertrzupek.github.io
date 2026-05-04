@@ -4,7 +4,7 @@ title: Valorant Stats
 description: <u><b>React & Node.js Web App</b></u><br/>Dynamic stat tracker for USC Esports<br/>October 2025 - ongoing
 img: assets/img/esports/valorant-cover-wip.png
 importance: 2
-category: Websites
+category:
 ---
 
 Currently in progress!
