@@ -7,7 +7,7 @@ importance: 1
 category: Websites
 ---
 
-You can find this project <a href="https://www.usctrojanesports.com/">here!</a>
+<!-- You can find this project <a href="https://www.usctrojanesports.com/">here!</a> -->
 
 <b>My Responsibilities:</b>
 
