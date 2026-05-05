@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Numbra
-description: <u><b>Producer & Engineer</b></u><br/>Made for the Unreal MegaJam<br/>Unreal, C++, Blueprints<br/>October 2025
+description: <u><b>Puzzle platformer (Unreal MegaJam)</b></u><br/><span class="production">Producer</span> <span class="engineering">Engineer</span><br/><span class="unreal">Unreal</span>, <span class="other">C++</span>, <span class="other">Blueprints</span><br/>October 2025
 img: assets/img/numbra/numbra4.png
 importance: 7
 category: Game Projects

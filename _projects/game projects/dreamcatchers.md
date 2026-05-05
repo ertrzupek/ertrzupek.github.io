@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dream Catchers
-description: <u><b>Lead Engineer</b></u><br/>Multiplayer co-op horror game<br/>Unreal, C++, AdvancedSessions<br/>January 2026 - Present
+description: <u><b>2-player co-op horror game</b></u><br/><span class="engineering">Lead Engineer</span> <span class="production">Producer</span><br/><span class="unreal">Unreal</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">C++</span><br/>January 2026 - Present
 img: assets/img/dc/dreamcatcherstitle.png
 importance: 4
 category: Game Projects

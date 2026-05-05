@@ -1,7 +1,7 @@
 ---
 layout: page
 title: MHVDITTKM
-description: <u><b>Producer & Unity Engineer</b></u><br/>Horror card game & dating sim<br/>Unity, C#<br/>February - April 2026
+description: <u><b>Horror card game & dating sim</b></u><br/><span class="engineering">Engineer</span> <span class="production">Producer</span> <span class="techart">Tech Artist</span><br/><span class="unity">Unity</span>, <span class="other">C#</span>, <span class="other">ShaderGraph</span><br/>February - April 2026
 img: assets/img/vampgirls/vampgirlstitle.png
 importance: 6
 category: Game Projects

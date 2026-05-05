@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Bottom Feeders
-description: <u><b>Producer & Engineer</b></u><br/>Multiplayer platforming party game<br/>Unity, C#, Mirror Networking<br/>January - May 2025
+description: <u><b>Strategic platforming party game</b></u><br/><span class="engineering">Engineer</span> <span class="production">Producer</span><br/><span class="unity">Unity</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">C#</span><br/>January - May 2025
 img: assets/img/bf/icon.png
 importance: 5
 category: Game Projects

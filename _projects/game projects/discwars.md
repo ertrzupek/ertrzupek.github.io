@@ -1,7 +1,7 @@
 ---
 layout: page
 title: DISC WARS
-description: <u><b>Solo Project</b></u><br/>Multiplayer Tron Legacy fan game<br/>Unreal, C++, EOS<br/>December 2025
+description: <u><b>Tron Legacy fan game</b></u><br/><span class="engineering">Engineer</span> <span class="techart">Tech Artist</span><br/><span class="unreal">Unreal</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">C++</span><br/>December 2025
 img: assets/img/discwars/throwtitle.gif
 importance: 2
 category: Game Projects

@@ -74,6 +74,36 @@
   }
 }
 
+.unreal, .unity, .multiplayer, .singleplayer, .production, .engineering, .other, .techart  {
+  border-radius: 50px;
+  padding: 2px 5px 2px 5px;
+  color: white;
+}
+.unity {
+  background-color: #db6d71;
+}
+.unreal {
+  background-color: #e3b475;
+}
+.singleplayer {
+  background-color: #df9173;
+}
+.multiplayer {
+  background-color: #6fa8e1;
+}
+.production {
+  background-color: #8265a6;
+}
+.engineering {
+  background-color: #9ebf72;
+}
+.techart {
+  background-color: #729aa0;
+}
+.other {
+  background-color: #8c8c8c;
+}
+
 html[data-theme="dark"] {
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};

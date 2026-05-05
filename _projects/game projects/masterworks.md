@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Masterworks
-description: <u><b>Technical Art Lead & Engineer</b></u><br/>Multiplayer real-time card game<br/>Unity, ShaderGraph, ParticleSystem<br/>May 2025 - May 2026
+description: <u><b>Real-time 1 v 1 card battler</b></u><br/><span class="techart">Tech Art Lead</span><br/><span class="unity">Unity</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">ShaderGraph</span><br/>May 2025 - May 2026
 img: assets/img/moh/combinedtitle.gif
 importance: 2
 category: Game Projects

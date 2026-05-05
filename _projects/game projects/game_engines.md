@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Engine Design
-description: <u><b>Solo Project</b></u><br/>Building a game engine from scratch<br/>C++, HLSL, DirectX<br/>January - May 2025
+description: <u><b>Building a game engine from scratch</b></u><br/><span class="engineering">Engineer</span> <span class="techart">Tech Artist</span><br/><span class="other">C++</span>, <span class="other">HLSL</span>, <span class="other">DirectX</span><br/>January - May 2025
 img: assets/img/engines/animation.gif
 importance: 1
 category: Game Projects

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Portal
-description: <u><b>Solo Project</b></u><br/>Portal clone built in a custom engine<br/>C++, SDL<br/>December 2024
+description: <u><b>Portal clone built in a custom engine</b></u><br/><span class="engineering">Engineer</span><br/><span class="other">C++</span>, <span class="other">SDL</span><br/>December 2024
 img: assets/img/games/portal.png
 importance: 8
 category: Game Projects
