@@ -17,10 +17,19 @@
     {
       "institution": "University of Southern California",
       "location": "Los Angeles, CA",
-      "url": "https://www.usc.edu/",
+      "url": "https://www.cs.usc.edu/academic-programs/undergrad/computer-science-games/",
       "area": "Computer Science Games",
       "studyType": "Bachelor of Science",
       "startDate": "08-2023",
+      "endDate": "05-2027"
+    },
+    {
+      "institution": "University of Southern California",
+      "location": "Los Angeles, CA",
+      "url": "https://www.cs.usc.edu/academic-programs/masters/computer-science-general/",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "01-2026",
       "endDate": "05-2027"
     }
   ],
@@ -35,44 +44,108 @@
   ],
   "projects": [
     {
-      "name": "Masterworks of Horror",
-      "summary": "Engineer & Tech Artist",
+      "name": "Engine Design",
+      "summary": "Building a game engine from scratch",
       "highlights": [
-        "Designed the board and card systems as proof-of-concept work",
-        "Asked to pivot to tech art / shader creation for card effects, taught myself Unity's ShaderGraph system",
-        "Gained experience with Jira and project management"
+        "Engineered a profiler within the engine to track the most time-consuming functions, and implemented multithreaded workers to handle these jobs for a 40% increase in program efficiency.",
+        "Utilized Visual Studio’s graphics debugger to better visualize rendering bugs and improve shader implementation efficiency by 30%.",
+        "Gained an advanced understanding of HLSL shaders (toon, lambert, rim, etc) as well as lighting, materials, normal maps, and post-processing to upgrade the user’s visual experience."
       ],
-      "startDate": "06-2025",
+      "startDate": "01-2025",
+      "endDate": "05-2025",
+      "url": "/projects/game_engines"
+    },
+    {
+      "name": "DISC WARS | Unreal",
+      "summary": "Tron Legacy fan game",
+      "highlights": [
+        "Implemented the full game loop for Disc Wars, a Tron: Legacy fan game, balancing player abilities and networking key elements such as player colors, sounds, and particles.",
+        "Utilized Unreal’s Gameplay Ability System to create a wide range of dynamic entity effects, improving feature implementation efficiency by 30%.",
+        "Built and deployed a listen server through Epic Online Services, ensuring stable & synchronized multiplayer gameplay with an 80% reduction in lag and desync issues."
+      ],
+      "startDate": "12-2025",
+      "endDate": "12-2025",
+      "url": "/projects/discwars"
+    },
+    {
+      "name": "Masterworks of Horror | Unity",
+      "summary": "Technical Art Lead",
+      "highlights": [
+        "Blocked out key systems such as zone handling and card placement during pre-production to speed up production development by 10%.",
+        "Self-taught Unity’s shader system to design a customizable holographic and parallax system for card effect juice, improving user engagement during playtests by 25%.",
+        "Collaboratively engineered game features with a cross-functional team of 50+ artists, designers, and engineers to decrease iteration time by 15%."
+      ],
+      "startDate": "05-2025",
+      "endDate": "05-2026",
       "url": "/projects/masterworks"
     },
     {
-      "name": "USC Crossy Road",
-      "summary": "First professional published game.",
+      "name": "Dream Catchers | Unreal",
+      "summary": "Engineering Lead",
       "highlights": [
-        "First time working with a game engine",
-        "Learned the workflow of Godot and taught it to teammates",
-        "Cultivated skills in team management and leadership"
+        "Integrate Steam into the multiplayer subsystem to make joining friends online incredibly easy, decreasing player join time and connection issues by 60%.",
+        "Implement various core game mechanics and network multiplayer functions to increase player interactions and general engagement.",
+        "As preproduction producer and engineering lead, manage the task distribution of 11 other team members for effective, rapid prototyping, decreasing iteration time by 30%."
       ],
-      "startDate": "10-2024",
-      "endDate": "11-2024",
-      "url": "/projects/crossy_road"
+      "startDate": "01-2026",
+      "url": "/projects/dreamcatchers"
+    },
+    {
+      "name": "Bottom Feeders | Unity",
+      "summary": "Engineer & Producer",
+      "highlights": [
+        "Built on Unity’s Mirror Networking package to create a reliable online multiplayer experience with integrated Steam connection, reducing networking issues by 45%.",
+        "Designed and maintained a detailed task sheet and burndown chart to ensure the timely completion of tasks, scoping as necessary to decrease crunch time by 60%.",
+        "Held weekly playtests and gathered player feedback through written and verbal surveys, resulting in a 25% increase in player retention and a more intuitive gameplay experience."
+      ],
+      "startDate": "01-2025",
+      "endDate": "05-2025",
+      "url": "/projects/bottom_feeders"
+    },
+    {
+      "name": "My Hot Vampire Date is Trying to Kill Me! | Unity",
+      "summary": "Engineer & Producer",
+      "highlights": [
+        "Designed and implemented a tutorial loop to teach mechanics, iterating based on various playtests’ feedback.",
+        "Added various VFX for visual clarity and managed dynamic sprites to indicate vampire states.",
+        "Planned out, managed, and logged tasks between members for the entire semester, adjusting as necessary."
+      ],
+      "startDate": "02-2026",
+      "endDate": "04-2026",
+      "url": "/projects/vamp_girls"
+    },
+    {
+      "name": "Numbra",
+      "summary": "Producer",
+      "highlights": [
+        "Quickly implemented multiple potential mechanics to experiment with different thematic ideas.",
+        "Designed and connected all UI elements using C++ and Blueprints for easy modification.",
+        "Blocked out tasks between members to ensure the timely completion of the game jam."
+      ],
+      "startDate": "10-2025",
+      "endDate": "10-2025",
+      "url": "/projects/numbra"
     }
   ],
   "involvement": [
     {
       "organization": "USC Esports",
       "location": "Los Angeles, CA",
-      "position": "Photographer & Programmer",
+      "position": "Technical Director & Photographer",
       "url": "https://www.usctrojanesports.com/",
       "startDate": "09-2024",
-      "highlights": ["Coordinate photo staff for events", "Update and maintain the organization's Squarespace website"]
+      "highlights": [
+        "Update and maintain the organization's Squarespace website",
+        "Design tools for streaming production",
+        "Coordinate photo staff for events"
+      ]
     },
     {
       "organization": "Trojans Who Read",
       "location": "Los Angeles, CA",
-      "position": "Secretary",
+      "position": "President",
       "url": "",
-      "startDate": "01-2024",
+      "startDate": "08-2025",
       "highlights": [
         "Plan and lead monthly book discussion meetings for the club's 500 members",
         "Communicate with members about book polls and social events through weekly email newsletter",
@@ -94,6 +167,14 @@
     }
   ],
   "work": [
+    {
+      "name": "E-Line Media",
+      "position": "Unreal Engineering Intern",
+      "url": "https://www.elinemedia.com/",
+      "startDate": "04-2026",
+      "endDate": "06-2026",
+      "highlights": []
+    },
     {
       "name": "Girls Make Games",
       "position": "Camp Counselor / Mentor / Producer",
@@ -149,12 +230,12 @@
     {
       "name": "Work",
       "icon": "fa-solid fa-star",
-      "keywords": ["Engine Design", "Production", "Gameplay Programming", "Tech Art / Shaders"]
+      "keywords": ["Multiplayer System Design", "Production", "Engine Programming", "Tech Art / Shaders"]
     },
     {
       "name": "Games",
       "icon": "fa-solid fa-star",
-      "keywords": ["Hades", "Balatro", "Minecraft", "Stardew Valley"]
+      "keywords": ["Hades", "Minecraft", "Trackmania", "Stardew Valley"]
     },
     {
       "name": "Other",
