@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Dream Catchers
-description: <u><b>2-player co-op horror game</b></u><br/><span class="production">Pre-Production Producer</span> <span class="engineering">Lead Engineer</span><br/><span class="unreal">Unreal</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">C++</span><br/>January 2026 - May 2026
+description: <u><b>2-player co-op horror game</b></u><br/><span class="production">Pre-Pro Producer</span> <span class="engineering">Engineer</span><br/><span class="unreal">Unreal</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">C++</span><br/>January 2026 - May 2026
 img: assets/img/dc/dreamcatcherstitle.png
 importance: 4
 category: Game Projects
