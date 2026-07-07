@@ -7,7 +7,7 @@ importance: 3
 category: Game Projects
 ---
 
-Never Alone 2 is an upcoming game by E-Line media, continuing the story of Nuna and Fox from the first game. It is currently in pre-production. 
+Never Alone 2 is an upcoming 3D multilplayer narrative game by E-Line media, continuing the story of Nuna and Fox from the first installment of the series. It is currently in pre-production.
 
 Over the course of 8 weeks, I worked very closely with the other engineers and designers, developing and testing core mechanics.
 
@@ -20,4 +20,4 @@ My Contributions:
 
 You can watch the teaser trailer here:
 
-{% include video.liquid path="https://www.youtube.com/watch?v=FjLLiSBF02M" class="img-fluid rounded z-depth-1" %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FjLLiSBF02M?si=SgexAHgArHqgCXM2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
