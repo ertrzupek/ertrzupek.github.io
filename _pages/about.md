@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-Welcome! I'm a muliplayer system designer and video game producer with home bases in Los Angeles and Connecticut. I've been producing small game projects for a while now, starting with Minecraft plugins and mods in Java about 7 years ago.
+Welcome! I'm a multiplayer system designer and video game producer with home bases in Los Angeles and Connecticut. I've been producing small game projects for a while now, starting with Minecraft plugins and mods in Java about 7 years ago.
 
 I'm currently attending USC's Viterbi School of Engineering, studying computer science with an emphasis on video game design at the bachelor's level. I'm also concurrently enrolled in Viterbi's Masters program in Computer Science, and I will be graduating in Spring 2027 with both my B.S. and M.S.
 
