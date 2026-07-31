@@ -34,7 +34,7 @@ Modeled after the "games" scene of Disney's <i>Tron: Legacy</i>, you play as a p
             <b>Dying</b><br/>
         </center>
         - One hit is enough to kill the player<br/>
-        - The player is out of commision for 3 seconds, then they will respawn<br/>
+        - The player is out of commission for 3 seconds, then they will respawn<br/>
         - Better be fast with your <b>Deflect Ability</b> as your enemy won't let you recover
     </div>
     <div class="col-sm mt-3 mt-md-0">

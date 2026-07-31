@@ -18,8 +18,8 @@ My Responsibilities:
 1. Planned out, managed, and logged tasks between members for the entire semester, adjusting as necessary
 2. Implemented card game base classes for rapid iteration of different potential card games during prototyping phase
 3. Designed and implemented tutorial loop to teach mechanics
-4. Iterated on different card designs based on playtest feedback for readabilty and simplicity
-5. Added various VFX (angry, love, powerup, candle snuff) for visual clarity
+4. Iterated on different card designs based on playtest feedback for readability and simplicity
+5. Added various VFX (angry, love, power-up, candle snuff) for visual clarity
 6. Managed dynamic sprites to indicate vampire states (bored, normal, excited)
 
 Gameplay Screenshots:

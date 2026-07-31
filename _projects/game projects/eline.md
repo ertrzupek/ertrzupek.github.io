@@ -16,7 +16,7 @@ My Contributions:
 1. Migrated essential mechanics from an old, deprecated system to the most updated version
 2. Became incredibly familiar with a large, established code base to debug important mechanics
 3. Implemented new mechanics that cleanly built off of the base systems, working for couch co-op, online multiplayer, and singleplayer modes
-4. Worked closely with designers to iterate on core features, while providing useful variables, functions, and designer facing systems for futher development
+4. Worked closely with designers to iterate on core features, while providing useful variables, functions, and designer facing systems for further development
 
 You can watch the teaser trailer here:
 
