@@ -7,7 +7,9 @@ importance: 2
 category: Game Projects
 ---
 
-While I have no formal background in tech art or VFX, I'm very interested in designing shaders and learning more about the VFX pipeline, which led me here :) I collaborated very closely with the engineering and art teams to create impactful visual effects to enhance the player's experience.
+Masterworks of Horror can be viewed and played <a href="https://masterworks-of-horror.itch.io/masterworks-of-horror-the-prologue">here</a>!
+
+While I have no formal background in tech art or VFX, I'm very interested in designing shaders and learning more about the VFX pipeline, which led me to this project. I collaborated very closely with the engineering and art teams to create impactful visual effects to enhance the player's experience.
 
 My Responsibilities:
 

@@ -2,9 +2,9 @@
 layout: page
 title: Dream Catchers
 description: <u><b>2-player co-op horror game</b></u><br/><span class="production">Producer</span> <span class="other">Pre-Production</span><br/><span class="unreal">Unreal</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">C++</span><br/>January - May 2026
-img: assets/img/dc/dreamcatcherstitle.png
+img: assets/img/dreamcatcherstitle.png
 importance: 4
-category: Game Projects
+category:
 ---
 
 Dream Catchers is one of USC Games' upcoming Advanced Games Project titles, set to release in Spring 2027. We are currently in pre-production, so details/screenshots are at a minimum.

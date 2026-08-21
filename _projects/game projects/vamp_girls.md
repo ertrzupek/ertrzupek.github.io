@@ -11,7 +11,7 @@ My Hot Vampire Date is Trying to Kill Me! is a card game where monsters are tryi
 
 Made with a team of 5 over the course of a semester, for CSCI 526.
 
-You can play this game <a href="https://artemisiaexists.itch.io/my-hot-vampire-date-is-trying-to-kill-me">here!</a>
+You can play this game <a href="https://artemisiaexists.itch.io/my-hot-vampire-date-is-trying-to-kill-me">here</a>!
 
 My Responsibilities:
 
