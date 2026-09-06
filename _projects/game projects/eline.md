@@ -3,8 +3,8 @@ layout: page
 title: E-Line Media
 description: <u><b>2-player co-op narrative game</b></u><br/><span class="engineering">Engineering Intern</span><br/><span class="unreal">Unreal</span>, <span class="multiplayer">Multiplayer</span>, <span class="other">C++</span><br/>April - June 2026
 img: assets/img/neveralone2.jpg
-importance: 3
-category: Game Projects
+importance: 1
+category: Professional Work
 ---
 
 Never Alone 2 is an upcoming 3D multiplayer narrative game by E-Line Media, continuing the story of Nuna and Fox from the first installment of the series. It is currently in pre-production.
