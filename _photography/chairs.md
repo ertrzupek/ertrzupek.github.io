@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Creature Comforts
-description: staging still life<br/>art 150
+description: staging still life
 img: assets/img/chairs/chairs-heading.jpg
 importance: 3
 category: Class Projects

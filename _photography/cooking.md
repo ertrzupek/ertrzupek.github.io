@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Just Another Late Night Chef
-description: my present moment<br/>art 150
+description: my present moment
 img: assets/img/cooking/cooking-2-2.jpg
 importance: 1
 category: Class Projects

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Face Card Never Declines
-description: portrait, prop, performance<br/>art 150
+description: portrait, prop, performance
 img: assets/img/cards/cards-4.jpg
 importance: 2
 category: Class Projects
