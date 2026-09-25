@@ -59,3 +59,22 @@ category: Professional Work
         {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-16.jpg" title="japan26"%}
     </div>
 </div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-17.jpg" title="japan26"%}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-18.jpg" title="japan26"%}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-19.jpg" title="japan26"%}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-20.jpg" title="japan26"%}
+    </div>
+</div>
+<div class="row">
+    {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-21.jpg" title="japan26"%}
+</div>
