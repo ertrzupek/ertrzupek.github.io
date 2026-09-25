@@ -7,6 +7,7 @@ importance: 4
 category: Professional Work
 ---
 
+Canon PowerShot SD880
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-1.jpg" title="japan26"%}
@@ -27,6 +28,8 @@ category: Professional Work
         {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-8.jpg" title="japan26"%}
     </div>
 </div>
+<br/>
+iPhone 15 Pro
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-9.jpg" title="japan26"%}
@@ -59,6 +62,8 @@ category: Professional Work
         {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-16.jpg" title="japan26"%}
     </div>
 </div>
+<br/>
+Kodak Ektar Half Frame (Portra 400 Film)
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-17.jpg" title="japan26"%}
@@ -74,7 +79,4 @@ category: Professional Work
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-20.jpg" title="japan26"%}
     </div>
-</div>
-<div class="row">
-    {% include figure.liquid loading="eager" path="assets/img/japan26/japan26-21.jpg" title="japan26"%}
 </div>
